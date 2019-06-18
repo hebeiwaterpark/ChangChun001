@@ -1,0 +1,158 @@
+fileFormatVersion: 2
+guid: 2d616dcef2da60640beca3ed399850a9
+timeCreated: 1513904763
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: dadun
+    100002: jimai
+    100004: ligou
+    100006: qimen
+    100008: quguan
+    100010: taichong
+    100012: xiguan
+    100014: xingjian
+    100016: yinbao
+    100018: yinlian
+    100020: zhangmen
+    100022: zhongdu
+    100024: zhongfeng
+    100026: //RootNode
+    100028: zujueyinganjing
+    100030: zujueyinganjing 1
+    100032: zuwuli
+    400000: dadun
+    400002: jimai
+    400004: ligou
+    400006: qimen
+    400008: quguan
+    400010: taichong
+    400012: xiguan
+    400014: xingjian
+    400016: yinbao
+    400018: yinlian
+    400020: zhangmen
+    400022: zhongdu
+    400024: zhongfeng
+    400026: //RootNode
+    400028: zujueyinganjing
+    400030: zujueyinganjing 1
+    400032: zuwuli
+    2300000: dadun
+    2300002: jimai
+    2300004: ligou
+    2300006: qimen
+    2300008: quguan
+    2300010: taichong
+    2300012: xiguan
+    2300014: xingjian
+    2300016: yinbao
+    2300018: yinlian
+    2300020: zhangmen
+    2300022: zhongdu
+    2300024: zhongfeng
+    2300026: zujueyinganjing 1
+    2300028: zuwuli
+    3300000: dadun
+    3300002: jimai
+    3300004: ligou
+    3300006: qimen
+    3300008: quguan
+    3300010: taichong
+    3300012: xiguan
+    3300014: xingjian
+    3300016: yinbao
+    3300018: yinlian
+    3300020: zhangmen
+    3300022: zhongdu
+    3300024: zhongfeng
+    3300026: zujueyinganjing 1
+    3300028: zuwuli
+    4300000: dadun
+    4300002: jimai
+    4300004: ligou
+    4300006: qimen
+    4300008: quguan
+    4300010: taichong
+    4300012: xiguan
+    4300014: xingjian
+    4300016: yinbao
+    4300018: yinlian
+    4300020: zhangmen
+    4300022: zhongdu
+    4300024: zhongfeng
+    4300026: zujueyinganjing
+    4300028: zuwuli
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

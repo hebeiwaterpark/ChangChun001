@@ -1,0 +1,2454 @@
+fileFormatVersion: 2
+guid: eac02950046402e4f9dbe05f6d45ab08
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: a_basilar_art
+    100002: accessory_nerves
+    100004: Arteries_arms
+    100006: Arteries_head
+    100008: atlas
+    100010: axis
+    100012: camera1
+    100014: curve2
+    100016: curve3
+    100018: disc_c2
+    100020: disc_c3
+    100022: disc_c4
+    100024: disc_c5
+    100026: disc_c6
+    100028: disc_c7
+    100030: dongmai
+    100032: dura_matter_spine
+    100034: facial_nerves
+    100036: glossopharyngeal_nerve
+    100038: group10
+    100040: group11
+    100042: group12
+    100044: group13
+    100046: group14
+    100048: group15
+    100050: group16
+    100052: group17
+    100054: group33
+    100056: group34
+    100058: group35
+    100060: group37
+    100062: group37__nurbsCircle3_pasted__group38
+    100064: group39
+    100066: group40
+    100068: group41
+    100070: group42
+    100072: group43
+    100074: group44
+    100076: group45
+    100078: group46
+    100080: group47
+    100082: group48
+    100084: group54
+    100086: group55
+    100088: group56
+    100090: group57
+    100092: group58
+    100094: group59
+    100096: group6
+    100098: group60
+    100100: group61
+    100102: group62
+    100104: group63
+    100106: group64
+    100108: group65
+    100110: group66
+    100112: group67
+    100114: group68
+    100116: group69
+    100118: group7
+    100120: group73
+    100122: group8
+    100124: group81
+    100126: group9
+    100128: gu
+    100130: hyoid
+    100132: hypoglossal_nerve
+    100134: ikHandle1
+    100136: ikHandle2
+    100138: intermedius_nerve
+    100140: internal_carotid
+    100142: jingmai
+    100144: //RootNode
+    100146: joint1
+    100148: joint10
+    100150: joint11
+    100152: joint12
+    100154: joint2
+    100156: joint3
+    100158: joint4
+    100160: joint6
+    100162: joint7
+    100164: joint8
+    100166: joint9
+    100168: l_a_ant_commun_art
+    100170: l_a_lenticulostriate_art
+    100172: l_a_perforator_art
+    100174: l_a_pontine_art
+    100176: l_ant_cereb
+    100178: l_ant_inf_cerebell_art
+    100180: L_C_Nerve01
+    100182: L_C_Nerve02
+    100184: l_common_carotid_art
+    100186: l_external_carotid_art
+    100188: L_ic_nerve01
+    100190: L_ic_nerve02
+    100192: L_ic_nerve03
+    100194: L_median_nerve
+    100196: l_mid_cereb
+    100198: L_musculocutaneous_nerve
+    100200: l_ophthalmic_art
+    100202: l_PCA_ant_temporal_art
+    100204: l_PCA_calcarine_art
+    100206: l_PCA_P01
+    100208: l_PCA_P02
+    100210: l_PCA_P03
+    100212: l_PCA_P04
+    100214: l_PCA_parietaloccip_art
+    100216: l_PCA_pos_pericallosal_art
+    100218: l_PCA_pos_temporal_art
+    100220: l_pos_commun_art
+    100222: l_post_inf_cerebell_art
+    100224: L_radial_nerve
+    100226: l_superior_cerebell_art
+    100228: L_ulnar_nerve
+    100230: l_vert_art
+    100232: l_vertebral_art
+    100234: m_skeleton_spine_Uved:disc_t1
+    100236: m_skeleton_spine_Uved:disc_t2
+    100238: m_skeleton_spine_Uved:vert_t1
+    100240: m_skeleton_spine_Uved:vert_t2
+    100242: m_skeleton_spine_Uved:vert_t3
+    100244: male
+    100246: mandible
+    100248: nurbsCircle1
+    100250: nurbsCircle1 1
+    100252: nurbsCircle1 2
+    100254: nurbsCircle1 3
+    100256: nurbsCircle1 4
+    100258: nurbsCircle1 5
+    100260: nurbsCircle1 6
+    100262: nurbsCircle1 7
+    100264: nurbsCircle2
+    100266: nurbsCircle2 1
+    100268: oculomotor_nerve
+    100270: olfactory_nerves
+    100272: optic_nerve
+    100274: pasted__middre_R3
+    100276: pasted__middre_R3 1
+    100278: pasted__middre_R4
+    100280: pasted__middre_R4 1
+    100282: pasted__null1
+    100284: pasted__nurbsCircle11
+    100286: pasted__nurbsCircle11 1
+    100288: pasted__nurbsCircle3
+    100290: pasted__nurbsCircle3 1
+    100292: pasted__nurbsCircle3 10
+    100294: pasted__nurbsCircle3 11
+    100296: pasted__nurbsCircle3 12
+    100298: pasted__nurbsCircle3 13
+    100300: pasted__nurbsCircle3 14
+    100302: pasted__nurbsCircle3 15
+    100304: pasted__nurbsCircle3 16
+    100306: pasted__nurbsCircle3 17
+    100308: pasted__nurbsCircle3 18
+    100310: pasted__nurbsCircle3 19
+    100312: pasted__nurbsCircle3 2
+    100314: pasted__nurbsCircle3 20
+    100316: pasted__nurbsCircle3 21
+    100318: pasted__nurbsCircle3 22
+    100320: pasted__nurbsCircle3 23
+    100322: pasted__nurbsCircle3 24
+    100324: pasted__nurbsCircle3 25
+    100326: pasted__nurbsCircle3 26
+    100328: pasted__nurbsCircle3 27
+    100330: pasted__nurbsCircle3 28
+    100332: pasted__nurbsCircle3 29
+    100334: pasted__nurbsCircle3 3
+    100336: pasted__nurbsCircle3 30
+    100338: pasted__nurbsCircle3 31
+    100340: pasted__nurbsCircle3 4
+    100342: pasted__nurbsCircle3 5
+    100344: pasted__nurbsCircle3 6
+    100346: pasted__nurbsCircle3 7
+    100348: pasted__nurbsCircle3 8
+    100350: pasted__nurbsCircle3 9
+    100352: pasted__nurbsCircle4
+    100354: pasted__nurbsCircle4 1
+    100356: pasted__polySurface1
+    100358: pasted__polySurface3
+    100360: pasted__ring_R1
+    100362: pasted__ring_R1 1
+    100364: pasted__ring_R2
+    100366: pasted__ring_R2 1
+    100368: pasted__ring_R3
+    100370: pasted__ring_R3 1
+    100372: pasted__ring_R4
+    100374: pasted__ring_R4 1
+    100376: pasted__rittre_R1
+    100378: pasted__rittre_R1 1
+    100380: pasted__rittre_R2
+    100382: pasted__rittre_R2 1
+    100384: pasted__rittre_R3
+    100386: pasted__rittre_R3 1
+    100388: pasted__rittre_R4
+    100390: pasted__rittre_R4 1
+    100392: pasted__s2
+    100394: pasted__shoubi
+    100396: pasted__shoubi2
+    100398: pasted__spinal3
+    100400: pasted__transform10
+    100402: pasted__transform11
+    100404: pasted__transform12
+    100406: pasted__transform6
+    100408: pasted__transform9
+    100410: pasted__uparm_R
+    100412: pasted__uparm_R 1
+    100414: pi
+    100416: r_a_ant_commun_art
+    100418: r_a_lenticulostriate_art
+    100420: r_a_perforator_art
+    100422: r_a_pontine_art
+    100424: r_ant_cereb
+    100426: r_ant_inf_cerebell_art
+    100428: R_C_Nerve01
+    100430: R_C_Nerve02
+    100432: r_common_carotid_art
+    100434: r_external_carotid_art
+    100436: R_ic_nerve01
+    100438: R_ic_nerve02
+    100440: R_ic_nerve03
+    100442: R_median_nerve
+    100444: r_mid_cereb
+    100446: R_musculocutaneous_nerve
+    100448: r_ophthalmic_art
+    100450: r_PCA_ant_temporal_art
+    100452: r_PCA_calcarine_art
+    100454: r_PCA_P01
+    100456: r_PCA_P02
+    100458: r_PCA_P03
+    100460: r_PCA_P04
+    100462: r_PCA_parietaloccip_art
+    100464: r_PCA_pos_pericallosal_art
+    100466: r_PCA_pos_temporal_art
+    100468: r_pos_commun_art
+    100470: r_post_inf_cerebell_art
+    100472: R_radial_nerve
+    100474: r_superior_cerebell_art
+    100476: R_ulnar_nerve
+    100478: r_vert_art
+    100480: r_vertebral_art
+    100482: s2_pasted__nurbsCircle4_pasted__group36
+    100484: s2_pasted__nurbsCircle4_pasted__group38
+    100486: Shourder_R
+    100488: Shourder_R1
+    100490: Shourder_R1__uparm_R__arm_R1__hand_R__index_R1__index_R2__index_R3_pasted__index_R4
+    100492: Shourder_R1__uparm_R__arm_R1__hand_R__index_R1__index_R2_pasted__index_R3
+    100494: Shourder_R1__uparm_R__arm_R1__hand_R__index_R1_pasted__index_R2
+    100496: Shourder_R1__uparm_R__arm_R1__hand_R__Knuckre_R_pasted__finger_R1_pasted__finger_R2_pasted__finger_R3_pasted__finger_R4
+    100498: Shourder_R1__uparm_R__arm_R1__hand_R__middre_R1_pasted__middre_R2
+    100500: Shourder_R1__uparm_R__arm_R1__hand_R_pasted__index_R1
+    100502: Shourder_R1__uparm_R__arm_R1__hand_R_pasted__Knuckre_R_pasted__finger_R1_pasted__finger_R2_pasted__finger_R3
+    100504: Shourder_R1__uparm_R__arm_R1__hand_R_pasted__middre_R1
+    100506: Shourder_R1__uparm_R__arm_R1_pasted__hand_R
+    100508: Shourder_R1__uparm_R__arm_R1_pasted__hand_R_pasted__Knuckre_R_pasted__finger_R1_pasted__finger_R2
+    100510: Shourder_R1__uparm_R_pasted__arm_R1
+    100512: Shourder_R1__uparm_R_pasted__arm_R1_pasted__hand_R_pasted__Knuckre_R_pasted__finger_R1
+    100514: Shourder_R1_pasted__uparm_R_pasted__arm_R1_pasted__hand_R_pasted__Knuckre_R
+    100516: Shourder_R__uparm_R__arm_R1__hand_R__index_R1__index_R2__index_R3_pasted__index_R4
+    100518: Shourder_R__uparm_R__arm_R1__hand_R__index_R1__index_R2_pasted__index_R3
+    100520: Shourder_R__uparm_R__arm_R1__hand_R__index_R1_pasted__index_R2
+    100522: Shourder_R__uparm_R__arm_R1__hand_R__Knuckre_R_pasted__finger_R1_pasted__finger_R2_pasted__finger_R3_pasted__finger_R4
+    100524: Shourder_R__uparm_R__arm_R1__hand_R__middre_R1_pasted__middre_R2
+    100526: Shourder_R__uparm_R__arm_R1__hand_R_pasted__index_R1
+    100528: Shourder_R__uparm_R__arm_R1__hand_R_pasted__Knuckre_R_pasted__finger_R1_pasted__finger_R2_pasted__finger_R3
+    100530: Shourder_R__uparm_R__arm_R1__hand_R_pasted__middre_R1
+    100532: Shourder_R__uparm_R__arm_R1_pasted__hand_R
+    100534: Shourder_R__uparm_R__arm_R1_pasted__hand_R_pasted__group36
+    100536: Shourder_R__uparm_R__arm_R1_pasted__hand_R_pasted__Knuckre_R_pasted__finger_R1_pasted__finger_R2
+    100538: Shourder_R__uparm_R_pasted__arm_R1
+    100540: Shourder_R__uparm_R_pasted__arm_R1_pasted__hand_R_pasted__Knuckre_R_pasted__finger_R1
+    100542: Shourder_R_pasted__uparm_R_pasted__arm_R1_pasted__hand_R_pasted__Knuckre_R
+    100544: skull1
+    100546: teeth_lower
+    100548: teeth_upper
+    100550: tou
+    100552: trigeminal_nerve
+    100554: v_ant_med_vein
+    100556: v_Cavernous_sinus
+    100558: v_cereb_veins
+    100560: v_great_cerebral_vein
+    100562: v_int_jug_vein
+    100564: v_Intercavernous_sinus
+    100566: v_post_spinal_vein
+    100568: v_sigmoid_sinus
+    100570: v_straight_sinus
+    100572: v_Sup_petrosal_sinus
+    100574: v_superior_sagital_sinus
+    100576: v_Transverse_sinus
+    100578: veins_arms
+    100580: vert_c3
+    100582: vert_c4
+    100584: vert_c5
+    100586: vert_c6
+    100588: vert_c7
+    100590: vestibulocochlear_nerve
+    400000: a_basilar_art
+    400002: accessory_nerves
+    400004: Arteries_arms
+    400006: Arteries_head
+    400008: atlas
+    400010: axis
+    400012: camera1
+    400014: curve2
+    400016: curve3
+    400018: disc_c2
+    400020: disc_c3
+    400022: disc_c4
+    400024: disc_c5
+    400026: disc_c6
+    400028: disc_c7
+    400030: dongmai
+    400032: dura_matter_spine
+    400034: facial_nerves
+    400036: glossopharyngeal_nerve
+    400038: group10
+    400040: group11
+    400042: group12
+    400044: group13
+    400046: group14
+    400048: group15
+    400050: group16
+    400052: group17
+    400054: group33
+    400056: group34
+    400058: group35
+    400060: group37
+    400062: group37__nurbsCircle3_pasted__group38
+    400064: group39
+    400066: group40
+    400068: group41
+    400070: group42
+    400072: group43
+    400074: group44
+    400076: group45
+    400078: group46
+    400080: group47
+    400082: group48
+    400084: group54
+    400086: group55
+    400088: group56
+    400090: group57
+    400092: group58
+    400094: group59
+    400096: group6
+    400098: group60
+    400100: group61
+    400102: group62
+    400104: group63
+    400106: group64
+    400108: group65
+    400110: group66
+    400112: group67
+    400114: group68
+    400116: group69
+    400118: group7
+    400120: group73
+    400122: group8
+    400124: group81
+    400126: group9
+    400128: gu
+    400130: hyoid
+    400132: hypoglossal_nerve
+    400134: ikHandle1
+    400136: ikHandle2
+    400138: intermedius_nerve
+    400140: internal_carotid
+    400142: jingmai
+    400144: //RootNode
+    400146: joint1
+    400148: joint10
+    400150: joint11
+    400152: joint12
+    400154: joint2
+    400156: joint3
+    400158: joint4
+    400160: joint6
+    400162: joint7
+    400164: joint8
+    400166: joint9
+    400168: l_a_ant_commun_art
+    400170: l_a_lenticulostriate_art
+    400172: l_a_perforator_art
+    400174: l_a_pontine_art
+    400176: l_ant_cereb
+    400178: l_ant_inf_cerebell_art
+    400180: L_C_Nerve01
+    400182: L_C_Nerve02
+    400184: l_common_carotid_art
+    400186: l_external_carotid_art
+    400188: L_ic_nerve01
+    400190: L_ic_nerve02
+    400192: L_ic_nerve03
+    400194: L_median_nerve
+    400196: l_mid_cereb
+    400198: L_musculocutaneous_nerve
+    400200: l_ophthalmic_art
+    400202: l_PCA_ant_temporal_art
+    400204: l_PCA_calcarine_art
+    400206: l_PCA_P01
+    400208: l_PCA_P02
+    400210: l_PCA_P03
+    400212: l_PCA_P04
+    400214: l_PCA_parietaloccip_art
+    400216: l_PCA_pos_pericallosal_art
+    400218: l_PCA_pos_temporal_art
+    400220: l_pos_commun_art
+    400222: l_post_inf_cerebell_art
+    400224: L_radial_nerve
+    400226: l_superior_cerebell_art
+    400228: L_ulnar_nerve
+    400230: l_vert_art
+    400232: l_vertebral_art
+    400234: m_skeleton_spine_Uved:disc_t1
+    400236: m_skeleton_spine_Uved:disc_t2
+    400238: m_skeleton_spine_Uved:vert_t1
+    400240: m_skeleton_spine_Uved:vert_t2
+    400242: m_skeleton_spine_Uved:vert_t3
+    400244: male
+    400246: mandible
+    400248: nurbsCircle1
+    400250: nurbsCircle1 1
+    400252: nurbsCircle1 2
+    400254: nurbsCircle1 3
+    400256: nurbsCircle1 4
+    400258: nurbsCircle1 5
+    400260: nurbsCircle1 6
+    400262: nurbsCircle1 7
+    400264: nurbsCircle2
+    400266: nurbsCircle2 1
+    400268: oculomotor_nerve
+    400270: olfactory_nerves
+    400272: optic_nerve
+    400274: pasted__middre_R3
+    400276: pasted__middre_R3 1
+    400278: pasted__middre_R4
+    400280: pasted__middre_R4 1
+    400282: pasted__null1
+    400284: pasted__nurbsCircle11
+    400286: pasted__nurbsCircle11 1
+    400288: pasted__nurbsCircle3
+    400290: pasted__nurbsCircle3 1
+    400292: pasted__nurbsCircle3 10
+    400294: pasted__nurbsCircle3 11
+    400296: pasted__nurbsCircle3 12
+    400298: pasted__nurbsCircle3 13
+    400300: pasted__nurbsCircle3 14
+    400302: pasted__nurbsCircle3 15
+    400304: pasted__nurbsCircle3 16
+    400306: pasted__nurbsCircle3 17
+    400308: pasted__nurbsCircle3 18
+    400310: pasted__nurbsCircle3 19
+    400312: pasted__nurbsCircle3 2
+    400314: pasted__nurbsCircle3 20
+    400316: pasted__nurbsCircle3 21
+    400318: pasted__nurbsCircle3 22
+    400320: pasted__nurbsCircle3 23
+    400322: pasted__nurbsCircle3 24
+    400324: pasted__nurbsCircle3 25
+    400326: pasted__nurbsCircle3 26
+    400328: pasted__nurbsCircle3 27
+    400330: pasted__nurbsCircle3 28
+    400332: pasted__nurbsCircle3 29
+    400334: pasted__nurbsCircle3 3
+    400336: pasted__nurbsCircle3 30
+    400338: pasted__nurbsCircle3 31
+    400340: pasted__nurbsCircle3 4
+    400342: pasted__nurbsCircle3 5
+    400344: pasted__nurbsCircle3 6
+    400346: pasted__nurbsCircle3 7
+    400348: pasted__nurbsCircle3 8
+    400350: pasted__nurbsCircle3 9
+    400352: pasted__nurbsCircle4
+    400354: pasted__nurbsCircle4 1
+    400356: pasted__polySurface1
+    400358: pasted__polySurface3
+    400360: pasted__ring_R1
+    400362: pasted__ring_R1 1
+    400364: pasted__ring_R2
+    400366: pasted__ring_R2 1
+    400368: pasted__ring_R3
+    400370: pasted__ring_R3 1
+    400372: pasted__ring_R4
+    400374: pasted__ring_R4 1
+    400376: pasted__rittre_R1
+    400378: pasted__rittre_R1 1
+    400380: pasted__rittre_R2
+    400382: pasted__rittre_R2 1
+    400384: pasted__rittre_R3
+    400386: pasted__rittre_R3 1
+    400388: pasted__rittre_R4
+    400390: pasted__rittre_R4 1
+    400392: pasted__s2
+    400394: pasted__shoubi
+    400396: pasted__shoubi2
+    400398: pasted__spinal3
+    400400: pasted__transform10
+    400402: pasted__transform11
+    400404: pasted__transform12
+    400406: pasted__transform6
+    400408: pasted__transform9
+    400410: pasted__uparm_R
+    400412: pasted__uparm_R 1
+    400414: pi
+    400416: r_a_ant_commun_art
+    400418: r_a_lenticulostriate_art
+    400420: r_a_perforator_art
+    400422: r_a_pontine_art
+    400424: r_ant_cereb
+    400426: r_ant_inf_cerebell_art
+    400428: R_C_Nerve01
+    400430: R_C_Nerve02
+    400432: r_common_carotid_art
+    400434: r_external_carotid_art
+    400436: R_ic_nerve01
+    400438: R_ic_nerve02
+    400440: R_ic_nerve03
+    400442: R_median_nerve
+    400444: r_mid_cereb
+    400446: R_musculocutaneous_nerve
+    400448: r_ophthalmic_art
+    400450: r_PCA_ant_temporal_art
+    400452: r_PCA_calcarine_art
+    400454: r_PCA_P01
+    400456: r_PCA_P02
+    400458: r_PCA_P03
+    400460: r_PCA_P04
+    400462: r_PCA_parietaloccip_art
+    400464: r_PCA_pos_pericallosal_art
+    400466: r_PCA_pos_temporal_art
+    400468: r_pos_commun_art
+    400470: r_post_inf_cerebell_art
+    400472: R_radial_nerve
+    400474: r_superior_cerebell_art
+    400476: R_ulnar_nerve
+    400478: r_vert_art
+    400480: r_vertebral_art
+    400482: s2_pasted__nurbsCircle4_pasted__group36
+    400484: s2_pasted__nurbsCircle4_pasted__group38
+    400486: Shourder_R
+    400488: Shourder_R1
+    400490: Shourder_R1__uparm_R__arm_R1__hand_R__index_R1__index_R2__index_R3_pasted__index_R4
+    400492: Shourder_R1__uparm_R__arm_R1__hand_R__index_R1__index_R2_pasted__index_R3
+    400494: Shourder_R1__uparm_R__arm_R1__hand_R__index_R1_pasted__index_R2
+    400496: Shourder_R1__uparm_R__arm_R1__hand_R__Knuckre_R_pasted__finger_R1_pasted__finger_R2_pasted__finger_R3_pasted__finger_R4
+    400498: Shourder_R1__uparm_R__arm_R1__hand_R__middre_R1_pasted__middre_R2
+    400500: Shourder_R1__uparm_R__arm_R1__hand_R_pasted__index_R1
+    400502: Shourder_R1__uparm_R__arm_R1__hand_R_pasted__Knuckre_R_pasted__finger_R1_pasted__finger_R2_pasted__finger_R3
+    400504: Shourder_R1__uparm_R__arm_R1__hand_R_pasted__middre_R1
+    400506: Shourder_R1__uparm_R__arm_R1_pasted__hand_R
+    400508: Shourder_R1__uparm_R__arm_R1_pasted__hand_R_pasted__Knuckre_R_pasted__finger_R1_pasted__finger_R2
+    400510: Shourder_R1__uparm_R_pasted__arm_R1
+    400512: Shourder_R1__uparm_R_pasted__arm_R1_pasted__hand_R_pasted__Knuckre_R_pasted__finger_R1
+    400514: Shourder_R1_pasted__uparm_R_pasted__arm_R1_pasted__hand_R_pasted__Knuckre_R
+    400516: Shourder_R__uparm_R__arm_R1__hand_R__index_R1__index_R2__index_R3_pasted__index_R4
+    400518: Shourder_R__uparm_R__arm_R1__hand_R__index_R1__index_R2_pasted__index_R3
+    400520: Shourder_R__uparm_R__arm_R1__hand_R__index_R1_pasted__index_R2
+    400522: Shourder_R__uparm_R__arm_R1__hand_R__Knuckre_R_pasted__finger_R1_pasted__finger_R2_pasted__finger_R3_pasted__finger_R4
+    400524: Shourder_R__uparm_R__arm_R1__hand_R__middre_R1_pasted__middre_R2
+    400526: Shourder_R__uparm_R__arm_R1__hand_R_pasted__index_R1
+    400528: Shourder_R__uparm_R__arm_R1__hand_R_pasted__Knuckre_R_pasted__finger_R1_pasted__finger_R2_pasted__finger_R3
+    400530: Shourder_R__uparm_R__arm_R1__hand_R_pasted__middre_R1
+    400532: Shourder_R__uparm_R__arm_R1_pasted__hand_R
+    400534: Shourder_R__uparm_R__arm_R1_pasted__hand_R_pasted__group36
+    400536: Shourder_R__uparm_R__arm_R1_pasted__hand_R_pasted__Knuckre_R_pasted__finger_R1_pasted__finger_R2
+    400538: Shourder_R__uparm_R_pasted__arm_R1
+    400540: Shourder_R__uparm_R_pasted__arm_R1_pasted__hand_R_pasted__Knuckre_R_pasted__finger_R1
+    400542: Shourder_R_pasted__uparm_R_pasted__arm_R1_pasted__hand_R_pasted__Knuckre_R
+    400544: skull1
+    400546: teeth_lower
+    400548: teeth_upper
+    400550: tou
+    400552: trigeminal_nerve
+    400554: v_ant_med_vein
+    400556: v_Cavernous_sinus
+    400558: v_cereb_veins
+    400560: v_great_cerebral_vein
+    400562: v_int_jug_vein
+    400564: v_Intercavernous_sinus
+    400566: v_post_spinal_vein
+    400568: v_sigmoid_sinus
+    400570: v_straight_sinus
+    400572: v_Sup_petrosal_sinus
+    400574: v_superior_sagital_sinus
+    400576: v_Transverse_sinus
+    400578: veins_arms
+    400580: vert_c3
+    400582: vert_c4
+    400584: vert_c5
+    400586: vert_c6
+    400588: vert_c7
+    400590: vestibulocochlear_nerve
+    2000000: camera1
+    2100000: pifu1
+    2100002: gutou
+    2100004: yachi
+    2100006: jz3
+    2100008: blinn4
+    2100010: blinn3
+    2100012: blinn2
+    2300000: atlas
+    2300002: axis
+    2300004: hyoid
+    2300006: m_skeleton_spine_Uved:disc_t2
+    2300008: m_skeleton_spine_Uved:vert_t1
+    2300010: m_skeleton_spine_Uved:vert_t2
+    2300012: m_skeleton_spine_Uved:vert_t3
+    2300014: mandible
+    2300016: skull1
+    2300018: teeth_lower
+    2300020: teeth_upper
+    2300022: vert_c3
+    2300024: vert_c4
+    2300026: vert_c5
+    2300028: vert_c6
+    2300030: vert_c7
+    3300000: atlas
+    3300002: axis
+    3300004: hyoid
+    3300006: m_skeleton_spine_Uved:disc_t2
+    3300008: m_skeleton_spine_Uved:vert_t1
+    3300010: m_skeleton_spine_Uved:vert_t2
+    3300012: m_skeleton_spine_Uved:vert_t3
+    3300014: mandible
+    3300016: skull1
+    3300018: teeth_lower
+    3300020: teeth_upper
+    3300022: vert_c3
+    3300024: vert_c4
+    3300026: vert_c5
+    3300028: vert_c6
+    3300030: vert_c7
+    4300000: male
+    4300002: mandible
+    4300004: skull1
+    4300006: teeth_lower
+    4300008: teeth_upper
+    4300010: disc_c2
+    4300012: disc_c3
+    4300014: disc_c4
+    4300016: disc_c5
+    4300018: disc_c6
+    4300020: disc_c7
+    4300022: vert_c3
+    4300024: vert_c4
+    4300026: vert_c5
+    4300028: vert_c6
+    4300030: vert_c7
+    4300032: hyoid
+    4300034: axis
+    4300036: atlas
+    4300038: m_skeleton_spine_Uved:vert_t3
+    4300040: m_skeleton_spine_Uved:vert_t2
+    4300042: m_skeleton_spine_Uved:vert_t1
+    4300044: m_skeleton_spine_Uved:disc_t2
+    4300046: m_skeleton_spine_Uved:disc_t1
+    4300048: v_Transverse_sinus
+    4300050: v_ant_med_vein
+    4300052: v_Cavernous_sinus
+    4300054: v_cereb_veins
+    4300056: v_great_cerebral_vein
+    4300058: v_Intercavernous_sinus
+    4300060: v_post_spinal_vein
+    4300062: v_sigmoid_sinus
+    4300064: v_straight_sinus
+    4300066: v_Sup_petrosal_sinus
+    4300068: v_superior_sagital_sinus
+    4300070: v_int_jug_vein
+    4300072: veins_arms
+    4300074: r_common_carotid_art
+    4300076: r_a_pontine_art
+    4300078: r_a_perforator_art
+    4300080: r_a_lenticulostriate_art
+    4300082: r_a_ant_commun_art
+    4300084: r_PCA_ant_temporal_art
+    4300086: r_PCA_pos_temporal_art
+    4300088: r_PCA_calcarine_art
+    4300090: r_PCA_parietaloccip_art
+    4300092: r_PCA_pos_pericallosal_art
+    4300094: r_PCA_P04
+    4300096: r_PCA_P03
+    4300098: r_PCA_P02
+    4300100: r_PCA_P01
+    4300102: r_superior_cerebell_art
+    4300104: r_external_carotid_art
+    4300106: r_vert_art
+    4300108: r_post_inf_cerebell_art
+    4300110: r_ophthalmic_art
+    4300112: r_pos_commun_art
+    4300114: l_a_pontine_art
+    4300116: l_a_perforator_art
+    4300118: l_a_lenticulostriate_art
+    4300120: l_a_ant_commun_art
+    4300122: l_PCA_ant_temporal_art
+    4300124: l_PCA_pos_temporal_art
+    4300126: l_PCA_calcarine_art
+    4300128: l_PCA_parietaloccip_art
+    4300130: l_PCA_pos_pericallosal_art
+    4300132: l_PCA_P04
+    4300134: l_PCA_P03
+    4300136: l_PCA_P02
+    4300138: l_PCA_P01
+    4300140: l_superior_cerebell_art
+    4300142: l_external_carotid_art
+    4300144: l_vert_art
+    4300146: l_post_inf_cerebell_art
+    4300148: l_ophthalmic_art
+    4300150: l_pos_commun_art
+    4300152: internal_carotid
+    4300154: a_basilar_art
+    4300156: r_ant_cereb
+    4300158: l_ant_cereb
+    4300160: l_mid_cereb
+    4300162: r_mid_cereb
+    4300164: r_ant_inf_cerebell_art
+    4300166: l_ant_inf_cerebell_art
+    4300168: l_common_carotid_art
+    4300170: l_vertebral_art
+    4300172: r_vertebral_art
+    4300174: Arteries_arms
+    4300176: Arteries_head
+    4300178: trigeminal_nerve
+    4300180: vestibulocochlear_nerve
+    4300182: optic_nerve
+    4300184: olfactory_nerves
+    4300186: oculomotor_nerve
+    4300188: intermedius_nerve
+    4300190: hypoglossal_nerve
+    4300192: glossopharyngeal_nerve
+    4300194: facial_nerves
+    4300196: accessory_nerves
+    4300198: L_ulnar_nerve
+    4300200: L_radial_nerve
+    4300202: L_musculocutaneous_nerve
+    4300204: L_median_nerve
+    4300206: R_ulnar_nerve
+    4300208: R_radial_nerve
+    4300210: R_musculocutaneous_nerve
+    4300212: R_median_nerve
+    4300214: L_ic_nerve02
+    4300216: L_ic_nerve03
+    4300218: L_ic_nerve01
+    4300220: R_ic_nerve02
+    4300222: R_ic_nerve03
+    4300224: R_ic_nerve01
+    4300226: R_C_Nerve02
+    4300228: R_C_Nerve01
+    4300230: L_C_Nerve02
+    4300232: L_C_Nerve01
+    4300234: dura_matter_spine
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: a_basilar_art
+    13700002: accessory_nerves
+    13700004: Arteries_arms
+    13700006: Arteries_head
+    13700008: disc_c2
+    13700010: disc_c3
+    13700012: disc_c4
+    13700014: disc_c5
+    13700016: disc_c6
+    13700018: disc_c7
+    13700020: dura_matter_spine
+    13700022: facial_nerves
+    13700024: glossopharyngeal_nerve
+    13700026: hypoglossal_nerve
+    13700028: intermedius_nerve
+    13700030: internal_carotid
+    13700032: l_a_ant_commun_art
+    13700034: l_a_lenticulostriate_art
+    13700036: l_a_perforator_art
+    13700038: l_a_pontine_art
+    13700040: l_ant_cereb
+    13700042: l_ant_inf_cerebell_art
+    13700044: L_C_Nerve01
+    13700046: L_C_Nerve02
+    13700048: l_common_carotid_art
+    13700050: l_external_carotid_art
+    13700052: L_ic_nerve01
+    13700054: L_ic_nerve02
+    13700056: L_ic_nerve03
+    13700058: L_median_nerve
+    13700060: l_mid_cereb
+    13700062: L_musculocutaneous_nerve
+    13700064: l_ophthalmic_art
+    13700066: l_PCA_ant_temporal_art
+    13700068: l_PCA_calcarine_art
+    13700070: l_PCA_P01
+    13700072: l_PCA_P02
+    13700074: l_PCA_P03
+    13700076: l_PCA_P04
+    13700078: l_PCA_parietaloccip_art
+    13700080: l_PCA_pos_pericallosal_art
+    13700082: l_PCA_pos_temporal_art
+    13700084: l_pos_commun_art
+    13700086: l_post_inf_cerebell_art
+    13700088: L_radial_nerve
+    13700090: l_superior_cerebell_art
+    13700092: L_ulnar_nerve
+    13700094: l_vert_art
+    13700096: l_vertebral_art
+    13700098: m_skeleton_spine_Uved:disc_t1
+    13700100: male
+    13700102: oculomotor_nerve
+    13700104: olfactory_nerves
+    13700106: optic_nerve
+    13700108: r_a_ant_commun_art
+    13700110: r_a_lenticulostriate_art
+    13700112: r_a_perforator_art
+    13700114: r_a_pontine_art
+    13700116: r_ant_cereb
+    13700118: r_ant_inf_cerebell_art
+    13700120: R_C_Nerve01
+    13700122: R_C_Nerve02
+    13700124: r_common_carotid_art
+    13700126: r_external_carotid_art
+    13700128: R_ic_nerve01
+    13700130: R_ic_nerve02
+    13700132: R_ic_nerve03
+    13700134: R_median_nerve
+    13700136: r_mid_cereb
+    13700138: R_musculocutaneous_nerve
+    13700140: r_ophthalmic_art
+    13700142: r_PCA_ant_temporal_art
+    13700144: r_PCA_calcarine_art
+    13700146: r_PCA_P01
+    13700148: r_PCA_P02
+    13700150: r_PCA_P03
+    13700152: r_PCA_P04
+    13700154: r_PCA_parietaloccip_art
+    13700156: r_PCA_pos_pericallosal_art
+    13700158: r_PCA_pos_temporal_art
+    13700160: r_pos_commun_art
+    13700162: r_post_inf_cerebell_art
+    13700164: R_radial_nerve
+    13700166: r_superior_cerebell_art
+    13700168: R_ulnar_nerve
+    13700170: r_vert_art
+    13700172: r_vertebral_art
+    13700174: trigeminal_nerve
+    13700176: v_ant_med_vein
+    13700178: v_Cavernous_sinus
+    13700180: v_cereb_veins
+    13700182: v_great_cerebral_vein
+    13700184: v_int_jug_vein
+    13700186: v_Intercavernous_sinus
+    13700188: v_post_spinal_vein
+    13700190: v_sigmoid_sinus
+    13700192: v_straight_sinus
+    13700194: v_Sup_petrosal_sinus
+    13700196: v_superior_sagital_sinus
+    13700198: v_Transverse_sinus
+    13700200: veins_arms
+    13700202: vestibulocochlear_nerve
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 4
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.04
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton:
+    - name: jingzhui(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pi
+      parentName: jingzhui(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: male
+      parentName: pi
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: tou
+      parentName: jingzhui(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mandible
+      parentName: tou
+      position: {x: -0, y: 7.105427e-17, z: -1.110223e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skull1
+      parentName: tou
+      position: {x: -0, y: 7.105427e-17, z: -1.110223e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: teeth_lower
+      parentName: tou
+      position: {x: -0, y: 7.105427e-17, z: -1.110223e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: teeth_upper
+      parentName: tou
+      position: {x: -0, y: 7.105427e-17, z: -1.110223e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gu
+      parentName: jingzhui(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: disc_c2
+      parentName: gu
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: disc_c3
+      parentName: gu
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: disc_c4
+      parentName: gu
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: disc_c5
+      parentName: gu
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: disc_c6
+      parentName: gu
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: disc_c7
+      parentName: gu
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: vert_c3
+      parentName: gu
+      position: {x: 0.0068125282, y: 0.5585423, z: -0.030579358}
+      rotation: {x: -0.0051674955, y: -0.10375176, z: 0.013647625, w: 0.99449617}
+      scale: {x: 1, y: 1, z: 1}
+    - name: vert_c4
+      parentName: gu
+      position: {x: -0, y: -7.105427e-17, z: -5.3290704e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: vert_c5
+      parentName: gu
+      position: {x: -0, y: -1.4210854e-16, z: -5.551115e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: vert_c6
+      parentName: gu
+      position: {x: -0, y: -1.4210854e-16, z: -4.8849813e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: vert_c7
+      parentName: gu
+      position: {x: -0, y: -7.105427e-17, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hyoid
+      parentName: gu
+      position: {x: -0, y: 7.105427e-17, z: -1.110223e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: axis
+      parentName: gu
+      position: {x: -0, y: 7.105427e-17, z: -3.9968027e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: atlas
+      parentName: gu
+      position: {x: -0, y: 7.105427e-17, z: -3.9968027e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: m_skeleton_spine_Uved:vert_t3
+      parentName: gu
+      position: {x: -0, y: 0, z: -3.5527136e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: m_skeleton_spine_Uved:vert_t2
+      parentName: gu
+      position: {x: -0, y: 0, z: -3.5527136e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: m_skeleton_spine_Uved:vert_t1
+      parentName: gu
+      position: {x: -0, y: 0, z: -3.5527136e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: m_skeleton_spine_Uved:disc_t2
+      parentName: gu
+      position: {x: -0, y: 0, z: -3.5527136e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: m_skeleton_spine_Uved:disc_t1
+      parentName: gu
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jingmai
+      parentName: jingzhui(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: v_Transverse_sinus
+      parentName: jingmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: v_ant_med_vein
+      parentName: jingmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: v_Cavernous_sinus
+      parentName: jingmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: v_cereb_veins
+      parentName: jingmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: v_great_cerebral_vein
+      parentName: jingmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: v_Intercavernous_sinus
+      parentName: jingmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: v_post_spinal_vein
+      parentName: jingmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: v_sigmoid_sinus
+      parentName: jingmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: v_straight_sinus
+      parentName: jingmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: v_Sup_petrosal_sinus
+      parentName: jingmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: v_superior_sagital_sinus
+      parentName: jingmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: v_int_jug_vein
+      parentName: jingmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: veins_arms
+      parentName: jingmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dongmai
+      parentName: jingzhui(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_common_carotid_art
+      parentName: dongmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_a_pontine_art
+      parentName: dongmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_a_perforator_art
+      parentName: dongmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_a_lenticulostriate_art
+      parentName: dongmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_a_ant_commun_art
+      parentName: dongmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_PCA_ant_temporal_art
+      parentName: dongmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_PCA_pos_temporal_art
+      parentName: dongmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_PCA_calcarine_art
+      parentName: dongmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_PCA_parietaloccip_art
+      parentName: dongmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_PCA_pos_pericallosal_art
+      parentName: dongmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_PCA_P04
+      parentName: dongmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_PCA_P03
+      parentName: dongmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_PCA_P02
+      parentName: dongmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_PCA_P01
+      parentName: dongmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_superior_cerebell_art
+      parentName: dongmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_external_carotid_art
+      parentName: dongmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_vert_art
+      parentName: dongmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_post_inf_cerebell_art
+      parentName: dongmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_ophthalmic_art
+      parentName: dongmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_pos_commun_art
+      parentName: dongmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_a_pontine_art
+      parentName: dongmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_a_perforator_art
+      parentName: dongmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_a_lenticulostriate_art
+      parentName: dongmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_a_ant_commun_art
+      parentName: dongmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_PCA_ant_temporal_art
+      parentName: dongmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_PCA_pos_temporal_art
+      parentName: dongmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_PCA_calcarine_art
+      parentName: dongmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_PCA_parietaloccip_art
+      parentName: dongmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_PCA_pos_pericallosal_art
+      parentName: dongmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_PCA_P04
+      parentName: dongmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_PCA_P03
+      parentName: dongmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_PCA_P02
+      parentName: dongmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_PCA_P01
+      parentName: dongmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_superior_cerebell_art
+      parentName: dongmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_external_carotid_art
+      parentName: dongmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_vert_art
+      parentName: dongmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_post_inf_cerebell_art
+      parentName: dongmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_ophthalmic_art
+      parentName: dongmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_pos_commun_art
+      parentName: dongmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: internal_carotid
+      parentName: dongmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: a_basilar_art
+      parentName: dongmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_ant_cereb
+      parentName: dongmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_ant_cereb
+      parentName: dongmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_mid_cereb
+      parentName: dongmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_mid_cereb
+      parentName: dongmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_ant_inf_cerebell_art
+      parentName: dongmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_ant_inf_cerebell_art
+      parentName: dongmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_common_carotid_art
+      parentName: dongmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_vertebral_art
+      parentName: dongmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_vertebral_art
+      parentName: dongmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Arteries_arms
+      parentName: dongmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Arteries_head
+      parentName: dongmai
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group6
+      parentName: jingzhui(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: trigeminal_nerve
+      parentName: group6
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: vestibulocochlear_nerve
+      parentName: group6
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: optic_nerve
+      parentName: group6
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: olfactory_nerves
+      parentName: group6
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oculomotor_nerve
+      parentName: group6
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: intermedius_nerve
+      parentName: group6
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hypoglossal_nerve
+      parentName: group6
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: glossopharyngeal_nerve
+      parentName: group6
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: facial_nerves
+      parentName: group6
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: accessory_nerves
+      parentName: group6
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_ulnar_nerve
+      parentName: group6
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_radial_nerve
+      parentName: group6
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_musculocutaneous_nerve
+      parentName: group6
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_median_nerve
+      parentName: group6
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_ulnar_nerve
+      parentName: group6
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_radial_nerve
+      parentName: group6
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_musculocutaneous_nerve
+      parentName: group6
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_median_nerve
+      parentName: group6
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_ic_nerve02
+      parentName: group6
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_ic_nerve03
+      parentName: group6
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_ic_nerve01
+      parentName: group6
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_ic_nerve02
+      parentName: group6
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_ic_nerve03
+      parentName: group6
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_ic_nerve01
+      parentName: group6
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_C_Nerve02
+      parentName: group6
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_C_Nerve01
+      parentName: group6
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_C_Nerve02
+      parentName: group6
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_C_Nerve01
+      parentName: group6
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dura_matter_spine
+      parentName: group6
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group7
+      parentName: jingzhui(Clone)
+      position: {x: -0, y: 0.4226885, z: -0.05377283}
+      rotation: {x: 0.20938034, y: -0, z: -0, w: 0.9778343}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nurbsCircle1
+      parentName: group7
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group8
+      parentName: nurbsCircle1
+      position: {x: -0, y: 0.03202987, z: -0.000010713531}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nurbsCircle1 1
+      parentName: group8
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group9
+      parentName: nurbsCircle1 1
+      position: {x: -0, y: 0.029631985, z: 0.000087808425}
+      rotation: {x: -0.041867193, y: 0, z: -0, w: 0.9991232}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nurbsCircle1 2
+      parentName: group9
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group10
+      parentName: nurbsCircle1 2
+      position: {x: -0, y: 0.027759368, z: -0.000072187955}
+      rotation: {x: -0.029149963, y: 0, z: -0, w: 0.9995751}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nurbsCircle1 3
+      parentName: group10
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group11
+      parentName: nurbsCircle1 3
+      position: {x: -0, y: 0.02550739, z: 0.000027239474}
+      rotation: {x: -0.0643798, y: 0, z: -0, w: 0.99792546}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nurbsCircle1 4
+      parentName: group11
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group12
+      parentName: nurbsCircle1 4
+      position: {x: -0, y: 0.0225411, z: 0.0000326474}
+      rotation: {x: -0.008560499, y: 0, z: -0, w: 0.9999634}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nurbsCircle1 5
+      parentName: group12
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group13
+      parentName: nurbsCircle1 5
+      position: {x: -0, y: 0.022482792, z: 0.000014211072}
+      rotation: {x: -0.085890315, y: 0, z: -0, w: 0.99630463}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nurbsCircle1 6
+      parentName: group13
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group16
+      parentName: nurbsCircle1 6
+      position: {x: -0, y: 0.27544647, z: 0.016121257}
+      rotation: {x: 0.019072367, y: 0, z: -0, w: 0.9998181}
+      scale: {x: 2.6477036, y: 2.6477036, z: 2.6477036}
+    - name: nurbsCircle2 1
+      parentName: group16
+      position: {x: -0, y: -0.08557823, z: -0.0020826561}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group14
+      parentName: nurbsCircle1 5
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.9482443, y: 1.9482443, z: 1.9482443}
+    - name: nurbsCircle1 7
+      parentName: group14
+      position: {x: 0.001202169, y: 0.000023149478, z: 0.00017881356}
+      rotation: {x: -0.0051674955, y: -0.1010026, z: 0.027370842, w: 0.99449617}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group15
+      parentName: jingzhui(Clone)
+      position: {x: -0, y: 0.42268112, z: -0.05743381}
+      rotation: {x: 0.12523726, y: -0, z: -0, w: 0.9921268}
+      scale: {x: 2.6477036, y: 2.6477036, z: 2.6477036}
+    - name: nurbsCircle2
+      parentName: group15
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group17
+      parentName: nurbsCircle2
+      position: {x: -0, y: 0.037737325, z: -1.7763568e-17}
+      rotation: {x: 1.5788739e-17, y: 0, z: -0, w: 1}
+      scale: {x: 0.10987093, y: 0.10987093, z: 0.10987093}
+    - name: pasted__shoubi2
+      parentName: jingzhui(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__shoubi
+      parentName: pasted__shoubi2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__polySurface1
+      parentName: pasted__shoubi
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__transform12
+      parentName: pasted__polySurface1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__polySurface3
+      parentName: pasted__shoubi
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__transform11
+      parentName: pasted__shoubi
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__s2
+      parentName: pasted__shoubi2
+      position: {x: -0.08, y: 2.6637354, z: 0.057824723}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__nurbsCircle4
+      parentName: pasted__s2
+      position: {x: -0.034642287, y: -1.9177966, z: -0.655539}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 3, y: 3, z: 3}
+    - name: group73
+      parentName: pasted__nurbsCircle4
+      position: {x: -0, y: -0.059692323, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.10796615, y: 0.10796615, z: 0.10796615}
+    - name: pasted__nurbsCircle4 1
+      parentName: group73
+      position: {x: 1.5679502, y: -0.60218704, z: 0.009287513}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: s2_pasted__nurbsCircle4_pasted__group36
+      parentName: pasted__nurbsCircle4
+      position: {x: -0.23001774, y: -0.19071321, z: -0.004586953}
+      rotation: {x: 0.33873105, y: 0.9403269, z: 0.030006176, w: -0.012089693}
+      scale: {x: 0.7232715, y: 0.7232715, z: -0.7232715}
+    - name: pasted__nurbsCircle11
+      parentName: s2_pasted__nurbsCircle4_pasted__group36
+      position: {x: -0.12978528, y: 0.32468048, z: 0.1768004}
+      rotation: {x: -0.71318346, y: -0.05816367, z: 0.09987945, w: 0.69138306}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__null1
+      parentName: pasted__nurbsCircle4
+      position: {x: -0.154481, y: -0.09974777, z: -0.0972913}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.10796615, y: 0.10796615, z: 0.10796615}
+    - name: curve2
+      parentName: pasted__null1
+      position: {x: 0.8748219, y: -0.9086744, z: 0.3009945}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group81
+      parentName: pasted__nurbsCircle4
+      position: {x: 0.15448096, y: -0.09974777, z: -0.0972913}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.10796615, y: 0.10796615, z: 0.10796615}
+    - name: curve3
+      parentName: group81
+      position: {x: -2.842171e-16, y: 1.1368684e-15, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ikHandle1
+      parentName: pasted__nurbsCircle4
+      position: {x: -0.0075583267, y: -0.07825662, z: 0.13030624}
+      rotation: {x: 8.651189e-17, y: 0.73750895, z: -8.651189e-17, w: 0.6753374}
+      scale: {x: 2.7683628, y: 2.7683628, z: 2.7683628}
+    - name: ikHandle2
+      parentName: pasted__nurbsCircle4
+      position: {x: 0.22569044, y: -0.19570932, z: -0.000000042060705}
+      rotation: {x: 8.651189e-17, y: 0.73750895, z: -8.651189e-17, w: 0.6753374}
+      scale: {x: 2.7683628, y: 2.7683628, z: 2.7683628}
+    - name: pasted__transform6
+      parentName: pasted__nurbsCircle4
+      position: {x: -0, y: -0.44899735, z: 0.024447868}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__spinal3
+      parentName: pasted__transform6
+      position: {x: 0.16928554, y: 0.3242892, z: -0.031896245}
+      rotation: {x: -0.45105422, y: 0.5445642, z: -0.45105422, w: 0.5445642}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__transform9
+      parentName: pasted__spinal3
+      position: {x: -0, y: -8.881784e-18, z: -1.15863945e-32}
+      rotation: {x: -2.854124e-32, y: -2.854124e-32, z: 1.606729e-17, w: 1}
+      scale: {x: 0.10796615, y: 0.10796615, z: 0.10796615}
+    - name: Shourder_R
+      parentName: pasted__transform9
+      position: {x: -0.5708667, y: -0.042981252, z: 0.2975104}
+      rotation: {x: -0.39469904, y: 0.58669645, z: -0.502943, w: -0.49703962}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__uparm_R 1
+      parentName: Shourder_R
+      position: {x: 0.42536327, y: -0.17894669, z: 2.842171e-16}
+      rotation: {x: 0.5171515, y: 0.10727399, z: -0.31800026, w: 0.7873516}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Shourder_R__uparm_R_pasted__arm_R1
+      parentName: pasted__uparm_R 1
+      position: {x: -0.21611305, y: -1.0552262, z: -0.00000019027448}
+      rotation: {x: -0.81497014, y: 0.18038937, z: 0.1727169, w: 0.5229266}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Shourder_R__uparm_R__arm_R1_pasted__hand_R
+      parentName: Shourder_R__uparm_R_pasted__arm_R1
+      position: {x: -0.22274734, y: -1.0882967, z: -0.0000029833643}
+      rotation: {x: 0.22061068, y: -0.42431483, z: 0.058296293, w: 0.876293}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__ring_R1 1
+      parentName: Shourder_R__uparm_R__arm_R1_pasted__hand_R
+      position: {x: 0.04666499, y: -0.4102593, z: 0.00000007996889}
+      rotation: {x: 0.026687512, y: -0.027954679, z: 0.07967381, w: 0.9960715}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__ring_R2 1
+      parentName: pasted__ring_R1 1
+      position: {x: -0.037256133, y: -0.17834027, z: -0.0000026836003}
+      rotation: {x: 0.000013826952, y: -0.00001701262, z: -0.00007103842, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__ring_R3 1
+      parentName: pasted__ring_R2 1
+      position: {x: -0.025061252, y: -0.120096184, z: 1.3329781e-12}
+      rotation: {x: -0.000018333245, y: 0.000022558279, z: 0.00009589515, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__ring_R4 1
+      parentName: pasted__ring_R3 1
+      position: {x: -0.021875896, y: -0.10463034, z: -0.00000027895788}
+      rotation: {x: 0.0668577, y: 0.02373824, z: 0.9399885, w: -0.33374873}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Shourder_R__uparm_R__arm_R1__hand_R_pasted__middre_R1
+      parentName: Shourder_R__uparm_R__arm_R1_pasted__hand_R
+      position: {x: 0.053246863, y: -0.4075593, z: 0.11666016}
+      rotation: {x: -0.07387627, y: 0.07644186, z: 0.073214136, w: 0.99163437}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Shourder_R__uparm_R__arm_R1__hand_R__middre_R1_pasted__middre_R2
+      parentName: Shourder_R__uparm_R__arm_R1__hand_R_pasted__middre_R1
+      position: {x: -0.030076496, y: -0.16387616, z: 0.0000010533965}
+      rotation: {x: 4.5150612e-11, y: 0.0000020217085, z: -0.000022333275, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__middre_R3 1
+      parentName: Shourder_R__uparm_R__arm_R1__hand_R__middre_R1_pasted__middre_R2
+      position: {x: -0.019834513, y: -0.10811561, z: 0.00000036425294}
+      rotation: {x: -0.000019675954, y: 0.000021588896, z: -0.000074284304, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__middre_R4 1
+      parentName: pasted__middre_R3 1
+      position: {x: -0.017868204, y: -0.09757309, z: 0.00000041910263}
+      rotation: {x: 0.054960143, y: -0.05732354, z: -0.42469978, w: 0.9018445}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Shourder_R_pasted__uparm_R_pasted__arm_R1_pasted__hand_R_pasted__Knuckre_R
+      parentName: Shourder_R__uparm_R__arm_R1_pasted__hand_R
+      position: {x: 0.012018998, y: -0.20836088, z: -0.09779236}
+      rotation: {x: -0.04875025, y: 0.042485308, z: -0.011902935, w: 0.99783605}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__rittre_R1 1
+      parentName: Shourder_R_pasted__uparm_R_pasted__arm_R1_pasted__hand_R_pasted__Knuckre_R
+      position: {x: 0.029840043, y: -0.18363293, z: 0.0000018980799}
+      rotation: {x: 0.19143648, y: -0.21680328, z: 0.13599166, w: 0.94755197}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__rittre_R2 1
+      parentName: pasted__rittre_R1 1
+      position: {x: -0.061126802, y: -0.14092329, z: 0.000009665407}
+      rotation: {x: -0.000034258454, y: 0.000052203424, z: 0.000039611434, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__rittre_R3 1
+      parentName: pasted__rittre_R2 1
+      position: {x: -0.049209222, y: -0.1134179, z: 6.252776e-15}
+      rotation: {x: 0.00002125373, y: -0.000032386586, z: -0.00004085164, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__rittre_R4 1
+      parentName: pasted__rittre_R3 1
+      position: {x: -0.036918547, y: -0.085127674, z: 0.00000081685744}
+      rotation: {x: -0.24017689, y: 0.0981637, z: -0.45223522, w: 0.85332423}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Shourder_R__uparm_R_pasted__arm_R1_pasted__hand_R_pasted__Knuckre_R_pasted__finger_R1
+      parentName: Shourder_R_pasted__uparm_R_pasted__arm_R1_pasted__hand_R_pasted__Knuckre_R
+      position: {x: 0.0037652575, y: -0.12845154, z: -0.08229825}
+      rotation: {x: 0.259452, y: -0.3095017, z: 0.15317555, w: 0.90190387}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Shourder_R__uparm_R__arm_R1_pasted__hand_R_pasted__Knuckre_R_pasted__finger_R1_pasted__finger_R2
+      parentName: Shourder_R__uparm_R_pasted__arm_R1_pasted__hand_R_pasted__Knuckre_R_pasted__finger_R1
+      position: {x: -0.053211454, y: -0.09469357, z: 0.000006921948}
+      rotation: {x: 0.000085705426, y: -0.00014644537, z: -0.000069082766, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Shourder_R__uparm_R__arm_R1__hand_R_pasted__Knuckre_R_pasted__finger_R1_pasted__finger_R2_pasted__finger_R3
+      parentName: Shourder_R__uparm_R__arm_R1_pasted__hand_R_pasted__Knuckre_R_pasted__finger_R1_pasted__finger_R2
+      position: {x: -0.04324883, y: -0.07701658, z: 1.9269918e-13}
+      rotation: {x: -0.00008054698, y: 0.00013763105, z: 0.00006889477, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Shourder_R__uparm_R__arm_R1__hand_R__Knuckre_R_pasted__finger_R1_pasted__finger_R2_pasted__finger_R3_pasted__finger_R4
+      parentName: Shourder_R__uparm_R__arm_R1__hand_R_pasted__Knuckre_R_pasted__finger_R1_pasted__finger_R2_pasted__finger_R3
+      position: {x: -0.043633398, y: -0.07766045, z: -0.00000814044}
+      rotation: {x: -0.30823573, y: 0.21399008, z: -0.47237772, w: 0.7975327}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Shourder_R__uparm_R__arm_R1__hand_R_pasted__index_R1
+      parentName: Shourder_R__uparm_R__arm_R1_pasted__hand_R
+      position: {x: -0.077980205, y: -0.113968015, z: 0.14684586}
+      rotation: {x: 0.5483511, y: 0.46651143, z: -0.11800767, w: 0.68392426}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Shourder_R__uparm_R__arm_R1__hand_R__index_R1_pasted__index_R2
+      parentName: Shourder_R__uparm_R__arm_R1__hand_R_pasted__index_R1
+      position: {x: -0.12695347, y: 0.011475654, z: 0.042849384}
+      rotation: {x: 0.018569771, y: 0.052238937, z: 0.11552308, w: 0.9917564}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Shourder_R__uparm_R__arm_R1__hand_R__index_R1__index_R2_pasted__index_R3
+      parentName: Shourder_R__uparm_R__arm_R1__hand_R__index_R1_pasted__index_R2
+      position: {x: -0.14837669, y: 0.009934304, z: 0.03709469}
+      rotation: {x: 0.000000010536711, y: 0.0000039136385, z: 0.000012629693, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Shourder_R__uparm_R__arm_R1__hand_R__index_R1__index_R2__index_R3_pasted__index_R4
+      parentName: Shourder_R__uparm_R__arm_R1__hand_R__index_R1__index_R2_pasted__index_R3
+      position: {x: -0.113891385, y: 0.007638269, z: 0.028472457}
+      rotation: {x: -0.4483419, y: -0.6339538, z: -0.22472925, w: 0.588718}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group33
+      parentName: Shourder_R__uparm_R__arm_R1_pasted__hand_R
+      position: {x: -0.077980205, y: -0.113968015, z: 0.14684586}
+      rotation: {x: -0.42246, y: 0.04921203, z: -0.21776243, w: 0.87845623}
+      scale: {x: 2.4646816, y: 2.4646816, z: 2.4646816}
+    - name: pasted__nurbsCircle3 5
+      parentName: group33
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group34
+      parentName: pasted__nurbsCircle3 5
+      position: {x: 0.0032327925, y: -0.054467063, z: -0.00004987652}
+      rotation: {x: 0.1141332, y: 0.0030074986, z: -0.026169382, w: 0.9931162}
+      scale: {x: 0.72284985, y: 0.72284985, z: 0.72284985}
+    - name: pasted__nurbsCircle3 14
+      parentName: group34
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group35
+      parentName: pasted__nurbsCircle3 14
+      position: {x: 0.00045782066, y: -0.08602561, z: -0.00025590233}
+      rotation: {x: 2.7755576e-17, y: 6.938894e-18, z: -1.92593e-34, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__nurbsCircle3 24
+      parentName: group35
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Shourder_R__uparm_R__arm_R1_pasted__hand_R_pasted__group36
+      parentName: Shourder_R__uparm_R__arm_R1_pasted__hand_R
+      position: {x: 0.053246863, y: -0.4075593, z: 0.11666016}
+      rotation: {x: -0.041897725, y: 0.67802244, z: -0.063924074, w: 0.73105675}
+      scale: {x: 1.7815946, y: 1.7815946, z: 1.7815946}
+    - name: pasted__nurbsCircle3 4
+      parentName: Shourder_R__uparm_R__arm_R1_pasted__hand_R_pasted__group36
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group37
+      parentName: pasted__nurbsCircle3 4
+      position: {x: -0.0012660228, y: -0.09349993, z: 0.0014147052}
+      rotation: {x: 4.4605216e-16, y: 8.203539e-17, z: -0.0027612187, w: 0.9999962}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__nurbsCircle3 13
+      parentName: group37
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group37__nurbsCircle3_pasted__group38
+      parentName: pasted__nurbsCircle3 13
+      position: {x: -0.0004940662, y: -0.061688434, z: 0.0009349969}
+      rotation: {x: -1.994932e-17, y: -1.3877788e-17, z: 2.7755576e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__nurbsCircle3 23
+      parentName: group37__nurbsCircle3_pasted__group38
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group39
+      parentName: Shourder_R__uparm_R__arm_R1_pasted__hand_R
+      position: {x: 0.04666499, y: -0.4102593, z: 0.00000007996889}
+      rotation: {x: 0.026994111, y: 0.72865415, z: 0.013324178, w: 0.68421996}
+      scale: {x: 1.7815946, y: 1.7815946, z: 1.7815946}
+    - name: pasted__nurbsCircle3 6
+      parentName: group39
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group40
+      parentName: pasted__nurbsCircle3 6
+      position: {x: 0.00052273023, y: -0.10223315, z: -0.0023907628}
+      rotation: {x: -2.8189256e-18, y: 1.7347235e-18, z: 4.8900565e-36, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__nurbsCircle3 15
+      parentName: group40
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group41
+      parentName: pasted__nurbsCircle3 15
+      position: {x: 0.0003527174, y: -0.06884184, z: -0.0016044969}
+      rotation: {x: 8.023096e-17, y: -3.469447e-18, z: 2.7835706e-34, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__nurbsCircle3 25
+      parentName: group41
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group48
+      parentName: Shourder_R__uparm_R__arm_R1_pasted__hand_R
+      position: {x: 0.012018998, y: -0.20836088, z: -0.09779236}
+      rotation: {x: 0.06479929, y: 0.7224322, z: 0.043437038, w: 0.6870269}
+      scale: {x: 2.6465194, y: 2.6465194, z: 2.6465194}
+    - name: pasted__nurbsCircle3 7
+      parentName: group48
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group42
+      parentName: pasted__nurbsCircle3 7
+      position: {x: -0.016904445, y: -0.06728009, z: 0.011369083}
+      rotation: {x: -0.0027644401, y: 0.0065164715, z: 0.111326665, w: 0.9937587}
+      scale: {x: 0.67318404, y: 0.67318404, z: 0.67318404}
+    - name: pasted__nurbsCircle3 16
+      parentName: group42
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group43
+      parentName: pasted__nurbsCircle3 16
+      position: {x: 0.0005733405, y: -0.08610832, z: -0.004353192}
+      rotation: {x: 0.030882793, y: 9.444845e-17, z: 1.3592589e-16, w: 0.99952304}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__nurbsCircle3 26
+      parentName: group43
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group44
+      parentName: pasted__nurbsCircle3 26
+      position: {x: 0.0004591903, y: -0.06938879, z: 0.00077941484}
+      rotation: {x: -3.2959746e-17, y: 4.1633363e-17, z: 2.7755576e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__nurbsCircle3 30
+      parentName: group44
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group45
+      parentName: pasted__nurbsCircle3 7
+      position: {x: 0.018081307, y: -0.054750193, z: 0.00051227125}
+      rotation: {x: -2.4032704e-16, y: 1.4750782e-16, z: 0.22489068, w: 0.974384}
+      scale: {x: 0.67318404, y: 0.67318404, z: 0.67318404}
+    - name: pasted__nurbsCircle3 17
+      parentName: group45
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group46
+      parentName: pasted__nurbsCircle3 17
+      position: {x: -0.00081843295, y: -0.060958624, z: -0.0006812306}
+      rotation: {x: 5.0740662e-17, y: 1.994932e-17, z: -1.0122417e-33, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__nurbsCircle3 27
+      parentName: group46
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group47
+      parentName: pasted__nurbsCircle3 27
+      position: {x: -0.00065324415, y: -0.049571387, z: -0.000539221}
+      rotation: {x: 3.035766e-18, y: -7.806256e-18, z: 2.3697966e-35, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__nurbsCircle3 31
+      parentName: group47
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__transform10
+      parentName: pasted__spinal3
+      position: {x: -0, y: -8.881784e-18, z: -1.15863945e-32}
+      rotation: {x: -2.854124e-32, y: -2.854124e-32, z: 1.606729e-17, w: 1}
+      scale: {x: 0.10796615, y: 0.10796615, z: 0.10796615}
+    - name: Shourder_R1
+      parentName: pasted__transform10
+      position: {x: -0.5708667, y: -0.042981252, z: -0.2975104}
+      rotation: {x: -0.39469904, y: 0.58669645, z: -0.502943, w: -0.49703962}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__uparm_R
+      parentName: Shourder_R1
+      position: {x: -0.46147135, y: -0.000006832929, z: 3.1974422e-16}
+      rotation: {x: -0.1561244, y: 0.038106337, z: 0.167013, w: 0.9727691}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Shourder_R1__uparm_R_pasted__arm_R1
+      parentName: pasted__uparm_R
+      position: {x: -1.0771292, y: -0.0000017143285, z: -0.00000019027448}
+      rotation: {x: -0.052778553, y: 0.75475365, z: -0.0058695013, w: 0.65385544}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Shourder_R1__uparm_R__arm_R1_pasted__hand_R
+      parentName: Shourder_R1__uparm_R_pasted__arm_R1
+      position: {x: -1.1108582, y: -0.000033174332, z: -0.0000029833643}
+      rotation: {x: -0.020512499, y: -0.15760016, z: 0.11768648, w: 0.98025066}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__ring_R1
+      parentName: Shourder_R1__uparm_R__arm_R1_pasted__hand_R
+      position: {x: -0.41289914, y: -0.000005369348, z: 0.00000060943745}
+      rotation: {x: 0.020648135, y: -0.012139033, z: 0.25422713, w: 0.96684796}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__ring_R2
+      parentName: pasted__ring_R1
+      position: {x: -0.18219021, y: 0.00001191842, z: -0.0000026836003}
+      rotation: {x: 0.0009191026, y: 0.020061905, z: 0.17587247, w: 0.9842081}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__ring_R3
+      parentName: pasted__ring_R2
+      position: {x: -0.12268317, y: -6.82121e-15, z: 1.2079227e-15}
+      rotation: {x: 0.00019566744, y: 0.004769787, z: 0.041696064, w: 0.9991189}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__ring_R4
+      parentName: pasted__ring_R3
+      position: {x: -0.106892765, y: -0.000000116337475, z: -0.00000027895663}
+      rotation: {x: 0.0668577, y: 0.02373824, z: 0.9399885, w: -0.33374873}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Shourder_R1__uparm_R__arm_R1__hand_R_pasted__middre_R1
+      parentName: Shourder_R1__uparm_R__arm_R1_pasted__hand_R
+      position: {x: -0.4109647, y: 0.0068414407, z: 0.11665856}
+      rotation: {x: -0.07212176, y: -0.09486209, z: 0.18657823, w: 0.9751863}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Shourder_R1__uparm_R__arm_R1__hand_R__middre_R1_pasted__middre_R2
+      parentName: Shourder_R1__uparm_R__arm_R1__hand_R_pasted__middre_R1
+      position: {x: -0.16661331, y: 0.0000027387734, z: 0.0000010533965}
+      rotation: {x: -0.0011072187, y: -0.029268239, z: 0.13505718, w: 0.99040484}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__middre_R3
+      parentName: Shourder_R1__uparm_R__arm_R1__hand_R__middre_R1_pasted__middre_R2
+      position: {x: -0.109919935, y: 6.6933126e-14, z: 6.110667e-15}
+      rotation: {x: -0.0011270663, y: -0.029251628, z: 0.13500516, w: 0.9904124}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__middre_R4
+      parentName: pasted__middre_R3
+      position: {x: -0.09919567, y: 0.0000022090844, z: 0.00000041910442}
+      rotation: {x: 0.054960143, y: -0.05732354, z: -0.42469978, w: 0.9018445}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Shourder_R1_pasted__uparm_R_pasted__arm_R1_pasted__hand_R_pasted__Knuckre_R
+      parentName: Shourder_R1__uparm_R__arm_R1_pasted__hand_R
+      position: {x: -0.2083842, y: -0.011607368, z: -0.09779236}
+      rotation: {x: -0.04875025, y: 0.042485308, z: -0.011902935, w: 0.99783605}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__rittre_R1
+      parentName: Shourder_R1_pasted__uparm_R_pasted__arm_R1_pasted__hand_R_pasted__Knuckre_R
+      position: {x: -0.1860456, y: 0.000023266019, z: -0.0000036701547}
+      rotation: {x: 0.17892766, y: -0.021710627, z: 0.21437794, w: 0.9599769}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__rittre_R2
+      parentName: pasted__rittre_R1
+      position: {x: -0.15360944, y: -0.000009359527, z: 0.000009665407}
+      rotation: {x: 0.0011813077, y: 0.06298805, z: 0.17148656, w: 0.98317015}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__rittre_R3
+      parentName: pasted__rittre_R2
+      position: {x: -0.1236332, y: -2.629008e-14, z: 3.4248158e-14}
+      rotation: {x: 0.0010415247, y: 0.052981038, z: 0.14437968, w: 0.98810244}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__rittre_R4
+      parentName: pasted__rittre_R3
+      position: {x: -0.09278847, y: -0.00000025771644, z: 0.0000008168568}
+      rotation: {x: -0.24017689, y: 0.0981637, z: -0.45223522, w: 0.85332423}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Shourder_R1__uparm_R_pasted__arm_R1_pasted__hand_R_pasted__Knuckre_R_pasted__finger_R1
+      parentName: Shourder_R1_pasted__uparm_R_pasted__arm_R1_pasted__hand_R_pasted__Knuckre_R
+      position: {x: -0.12739566, y: -0.016872508, z: -0.08230298}
+      rotation: {x: 0.25385827, y: -0.019267526, z: 0.052346632, w: 0.9656317}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Shourder_R1__uparm_R__arm_R1_pasted__hand_R_pasted__Knuckre_R_pasted__finger_R1_pasted__finger_R2
+      parentName: Shourder_R1__uparm_R_pasted__arm_R1_pasted__hand_R_pasted__Knuckre_R_pasted__finger_R1
+      position: {x: -0.10862013, y: -0.000001437223, z: 0.000006921948}
+      rotation: {x: -0.0015792376, y: 0.057115816, z: 0.11145072, w: 0.99212605}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Shourder_R1__uparm_R__arm_R1__hand_R_pasted__Knuckre_R_pasted__finger_R1_pasted__finger_R2_pasted__finger_R3
+      parentName: Shourder_R1__uparm_R__arm_R1_pasted__hand_R_pasted__Knuckre_R_pasted__finger_R1_pasted__finger_R2
+      position: {x: -0.08832902, y: 7.673861e-15, z: -1.5774049e-14}
+      rotation: {x: -0.001743206, y: 0.05739822, z: 0.11158732, w: 0.9920941}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Shourder_R1__uparm_R__arm_R1__hand_R__Knuckre_R_pasted__finger_R1_pasted__finger_R2_pasted__finger_R3_pasted__finger_R4
+      parentName: Shourder_R1__uparm_R__arm_R1__hand_R_pasted__Knuckre_R_pasted__finger_R1_pasted__finger_R2_pasted__finger_R3
+      position: {x: -0.08907872, y: 0.0000044895596, z: -0.00000814044}
+      rotation: {x: -0.30823573, y: 0.21399008, z: -0.47237772, w: 0.7975327}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Shourder_R1__uparm_R__arm_R1__hand_R_pasted__index_R1
+      parentName: Shourder_R1__uparm_R__arm_R1_pasted__hand_R
+      position: {x: -0.120630726, y: -0.061670277, z: 0.14837836}
+      rotation: {x: 0.5267212, y: 0.46336722, z: -0.15727162, w: 0.69506925}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Shourder_R1__uparm_R__arm_R1__hand_R__index_R1_pasted__index_R2
+      parentName: Shourder_R1__uparm_R__arm_R1__hand_R_pasted__index_R1
+      position: {x: -0.13447823, y: -0.000008103371, z: 0.0000026335922}
+      rotation: {x: 0.0068941154, y: 0.05245173, z: -0.086259045, w: 0.9948672}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Shourder_R1__uparm_R__arm_R1__hand_R__index_R1__index_R2_pasted__index_R3
+      parentName: Shourder_R1__uparm_R__arm_R1__hand_R__index_R1_pasted__index_R2
+      position: {x: -0.15326561, y: -0.00000487749, z: 0.0000011592863}
+      rotation: {x: 0.000000014901161, y: 0.0000039136385, z: 0.000012629693, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Shourder_R1__uparm_R__arm_R1__hand_R__index_R1__index_R2__index_R3_pasted__index_R4
+      parentName: Shourder_R1__uparm_R__arm_R1__hand_R__index_R1__index_R2_pasted__index_R3
+      position: {x: -0.11764468, y: 0.000007848525, z: -0.0000050408044}
+      rotation: {x: -0.4483419, y: -0.6339538, z: -0.22472925, w: 0.588718}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group54
+      parentName: Shourder_R1__uparm_R__arm_R1_pasted__hand_R
+      position: {x: -0.10443573, y: -0.09037357, z: 0.1468468}
+      rotation: {x: 0.8003442, y: -0.42255765, z: -0.24462503, w: 0.34792635}
+      scale: {x: 2.4646816, y: 2.4646816, z: 2.4646816}
+    - name: pasted__nurbsCircle3
+      parentName: group54
+      position: {x: -0.013356556, y: -0.00086202746, z: 0.000034554916}
+      rotation: {x: -0.033206932, y: 0.00022035847, z: 0.032244593, w: 0.99892825}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group55
+      parentName: pasted__nurbsCircle3
+      position: {x: -0.0032339003, y: 0.054465048, z: 0.00004786453}
+      rotation: {x: 0.1141332, y: 0.0030074986, z: -0.026169382, w: 0.9931162}
+      scale: {x: 0.72284985, y: 0.72284985, z: 0.72284985}
+    - name: pasted__nurbsCircle3 8
+      parentName: group55
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.20110853, y: 0, z: -0, w: 0.97956896}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group56
+      parentName: pasted__nurbsCircle3 8
+      position: {x: -0.00045841595, y: 0.08602124, z: 0.00025314433}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__nurbsCircle3 18
+      parentName: group56
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group59
+      parentName: Shourder_R1__uparm_R__arm_R1_pasted__hand_R
+      position: {x: -0.410961, y: 0.006846088, z: 0.116659954}
+      rotation: {x: 0.5879361, y: -0.4391598, z: 0.4779007, w: 0.48278436}
+      scale: {x: 1.7815946, y: 1.7815946, z: 1.7815946}
+    - name: pasted__nurbsCircle3 1
+      parentName: group59
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.13659464, y: 0.021125782, z: 0.1513762, w: 0.978765}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group58
+      parentName: pasted__nurbsCircle3 1
+      position: {x: 0.0012658112, y: 0.093502946, z: -0.0014131231}
+      rotation: {x: 0, y: -0, z: -0.0027612187, w: 0.9999962}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__nurbsCircle3 9
+      parentName: group58
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.13821864, y: -0, z: -0, w: 0.99040174}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group57
+      parentName: pasted__nurbsCircle3 9
+      position: {x: 0.0004940662, y: 0.061688434, z: -0.0009349969}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__nurbsCircle3 19
+      parentName: group57
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.13821864, y: -0, z: -0, w: 0.99040174}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group60
+      parentName: Shourder_R1__uparm_R__arm_R1_pasted__hand_R
+      position: {x: -0.41289335, y: 0.000011670133, z: -0.0000012158075}
+      rotation: {x: 0.5015525, y: -0.46559584, z: 0.56155026, w: 0.4651095}
+      scale: {x: 1.7815946, y: 1.7815946, z: 1.7815946}
+    - name: pasted__nurbsCircle3 2
+      parentName: group60
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.1770867, y: -0, z: -0, w: 0.9841953}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group61
+      parentName: pasted__nurbsCircle3 2
+      position: {x: -0.0005220303, y: 0.10224047, z: 0.0023977538}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__nurbsCircle3 10
+      parentName: group61
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.1770867, y: -0, z: -0, w: 0.9841953}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group62
+      parentName: pasted__nurbsCircle3 10
+      position: {x: -0.0003527174, y: 0.06884184, z: 0.0016044969}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__nurbsCircle3 20
+      parentName: group62
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.041870784, y: -0, z: -0, w: 0.99912304}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group63
+      parentName: Shourder_R1__uparm_R__arm_R1_pasted__hand_R
+      position: {x: -0.20837858, y: -0.011601243, z: -0.097792864}
+      rotation: {x: 0.48359284, y: -0.48992926, z: 0.58208513, w: 0.43276346}
+      scale: {x: 2.6465194, y: 2.6465194, z: 2.6465194}
+    - name: pasted__nurbsCircle3 3
+      parentName: group63
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group64
+      parentName: pasted__nurbsCircle3 3
+      position: {x: -0.018079953, y: 0.05475555, z: -0.00050856464}
+      rotation: {x: 2.9720287e-16, y: 3.2892668e-17, z: 0.22489068, w: 0.974384}
+      scale: {x: 0.67318404, y: 0.67318404, z: 0.67318404}
+    - name: pasted__nurbsCircle3 11
+      parentName: group64
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.037922118, y: 0.012260205, z: -0.3073779, w: 0.95075256}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group65
+      parentName: pasted__nurbsCircle3 11
+      position: {x: 0.00081529905, y: 0.060955245, z: 0.0006787008}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__nurbsCircle3 21
+      parentName: group65
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.12537204, y: -0, z: -0, w: 0.99210984}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group66
+      parentName: pasted__nurbsCircle3 21
+      position: {x: 0.00065324415, y: 0.049571387, z: 0.000539221}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__nurbsCircle3 28
+      parentName: group66
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.12537204, y: -0, z: -0, w: 0.99210984}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group67
+      parentName: pasted__nurbsCircle3 3
+      position: {x: 0.01690595, y: 0.067287974, z: -0.011362288}
+      rotation: {x: -0.0027644401, y: 0.0065164715, z: 0.111326665, w: 0.9937587}
+      scale: {x: 0.67318404, y: 0.67318404, z: 0.67318404}
+    - name: pasted__nurbsCircle3 12
+      parentName: group67
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.106214195, y: -0.01954101, z: -0.17988239, w: 0.97774184}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group68
+      parentName: pasted__nurbsCircle3 12
+      position: {x: -0.0005765697, y: 0.08610073, z: 0.004345999}
+      rotation: {x: 0.030882793, y: -0, z: -0, w: 0.99952304}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__nurbsCircle3 22
+      parentName: group68
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.18263838, y: -0, z: -0, w: 0.98318017}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group69
+      parentName: pasted__nurbsCircle3 22
+      position: {x: -0.0004591903, y: 0.06938879, z: -0.00077941484}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__nurbsCircle3 29
+      parentName: group69
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.15384595, y: -0, z: -0, w: 0.98809487}
+      scale: {x: 1, y: 1, z: 1}
+    - name: s2_pasted__nurbsCircle4_pasted__group38
+      parentName: pasted__nurbsCircle4
+      position: {x: 0.22568992, y: -0.19570869, z: 7.105427e-17}
+      rotation: {x: 0.017614832, y: 0.005997479, z: 0.32225332, w: 0.9464706}
+      scale: {x: 0.7232715, y: 0.7232715, z: 0.7232715}
+    - name: pasted__nurbsCircle11 1
+      parentName: s2_pasted__nurbsCircle4_pasted__group38
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: camera1
+      parentName: jingzhui(Clone)
+      position: {x: -0.32434624, y: 1.0667237, z: -0.6999284}
+      rotation: {x: 0.26736143, y: 0.20979738, z: -0.059762362, w: 0.93857944}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint1
+      parentName: jingzhui(Clone)
+      position: {x: -0, y: 0.082685165, z: -0.080275916}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint2
+      parentName: joint1
+      position: {x: -0, y: 0.33999595, z: 0.022842105}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint6
+      parentName: joint2
+      position: {x: -0, y: 0.0000073768306, z: 0.0036609785}
+      rotation: {x: -2.7755576e-17, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint7
+      parentName: joint6
+      position: {x: -0, y: 0.029225871, z: 0.013105772}
+      rotation: {x: 8.326673e-17, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint8
+      parentName: joint7
+      position: {x: -0, y: 0.02699789, z: 0.012213772}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint9
+      parentName: joint8
+      position: {x: -0, y: 0.026211545, z: 0.009140167}
+      rotation: {x: -2.7755576e-17, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint10
+      parentName: joint9
+      position: {x: -0, y: 0.024507795, z: 0.007070766}
+      rotation: {x: -4.1633363e-17, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint11
+      parentName: joint10
+      position: {x: -0, y: 0.022279812, z: 0.0034223201}
+      rotation: {x: 1.3877788e-17, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint12
+      parentName: joint11
+      position: {x: -0, y: 0.022279812, z: 0.0030143275}
+      rotation: {x: -2.4286129e-17, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint3
+      parentName: joint12
+      position: {x: -0, y: 0.0492751, z: 0.000090352245}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint4
+      parentName: joint3
+      position: {x: -0, y: 0.2265858, z: 0.005514256}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
