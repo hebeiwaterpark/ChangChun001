@@ -29,7 +29,7 @@ public class GetList : MonoBehaviour
     /// </summary>
     private Dictionary<string, GameObject> getNameGameobjectDic = new Dictionary<string, GameObject>();
 
-    private string[] list01 = { "摆动类手法", "摩擦类手法", "挤压类手法", "振颤类手法", "叩击类手法", "运动关节类手法", "复合类手法", "其他类手法" };
+    private readonly string[] list01 = { "摆动类手法", "摩擦类手法", "挤压类手法", "振颤类手法", "叩击类手法", "运动关节类手法", "复合类手法", "其他类手法" };
     private void Start()
     {
         #region 主菜单
