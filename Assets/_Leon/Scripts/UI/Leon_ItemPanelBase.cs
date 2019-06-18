@@ -17,7 +17,7 @@ public class Leon_ItemPanelBase : MonoBehaviour
     private void Awake()
     {
         _childList = new List<Leon_ItemPanelBase>();
-        Debug.Log(_childList.Count+"===============================");
+      
         downArrow = this.transform.Find("ContentPanel/ArrowButton").GetComponent<Button>();
         downArrow.GetComponent<Image>().sprite = right;
         downArrow.onClick.AddListener(() =>

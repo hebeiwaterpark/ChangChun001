@@ -49,7 +49,7 @@ public class GetList : MonoBehaviour
         #endregion
         #region 振颤类手法菜单
         GetChildUI(new string[] { "抖法" }, "振颤类手法");
-
+        GetChildUI(new string[] { "抖腿大师法" }, "抖法");
         #endregion
         #region 叩击类手法菜单
         GetChildUI(new string[] { "击法" }, "叩击类手法");
@@ -85,8 +85,7 @@ public class GetList : MonoBehaviour
             {
                 getNameGameobjectDic.Add(str[i], obj);
             }
-          
-         
+                  
             obj.GetComponent<Leon_ItemPanelBase>().SetBaseParent(partent);
             
             obj.GetComponent<Leon_ItemPanelBase>().InitPanelContent(new Leon_ItemBean(str[i]));
@@ -98,7 +97,6 @@ public class GetList : MonoBehaviour
                     SceneManager.LoadScene("AcupointScene");
                 });
             }
-
         }
 
 
