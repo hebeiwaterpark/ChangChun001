@@ -67,6 +67,7 @@ public class CreateQuestionPanel:MonoBehaviour
     public void Awake()
     {
         
+
         _quesTxt = GameObject.Find("Canvas/QuestionPanel/QuestionText").GetComponent<Text>();
         _tipTxt = GameObject.Find("Canvas/QuestionPanel/TipText").GetComponent<Text>();
         _tipTxt.text = null;
@@ -129,6 +130,7 @@ public class CreateQuestionPanel:MonoBehaviour
                 }
                     
             });
+
         }
 
         

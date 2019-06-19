@@ -65,7 +65,7 @@ public class GetList : MonoBehaviour
         GetChildUI(new string[] { "操作方法", "动作要领", "注意事项", "临床应用", "操作视频", "危险之处", "VR动画解析" }, "颈部扳法");
         #endregion
 
-        Debug.Log("this is a invalid file");
+       // Debug.Log("this is a invalid file");
     }
 
 

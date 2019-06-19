@@ -26,7 +26,7 @@ public class Leon_Login : MonoBehaviour
             }
             else
             {
-                tipTxt.text = "用户名或密码匹配！";
+                tipTxt.text = "用户名或密码不匹配！";
             }
         });
     }
