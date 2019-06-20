@@ -32,6 +32,8 @@ public class GetList : MonoBehaviour
     private readonly string[] list01 = { "摆动类手法", "摩擦类手法", "挤压类手法", "振颤类手法", "叩击类手法", "运动关节类手法", "复合类手法", "其他类手法", "手法考核", "常用腧穴" };
     private void Start()
     {
+
+
         #region 主菜单
         GetUI(list01, this.transform);
         #endregion
@@ -77,6 +79,7 @@ public class GetList : MonoBehaviour
 
         #endregion
         // Debug.Log("this is a invalid file");
+       
     }
 
 
