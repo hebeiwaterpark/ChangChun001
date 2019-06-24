@@ -14,6 +14,7 @@ public class LoginManager : MonoBehaviour
 
     void Start()
     {
+        //http://www.mxtong.net.cn/GateWay/Services.asmx/DirectSend?UserID=998131&Account=admin&Password=ANJD6L&Phones=18630523825;&Content=123&SendTime=&SendType=1&PostFixNumber=
         loginBtn.onClick.AddListener(() =>
         {
             string usr = userName.gameObject.transform.GetChild(2).GetComponent<Text>().text;

@@ -33,7 +33,6 @@ public class GetList : MonoBehaviour
     private void Start()
     {
 
-
         #region 主菜单
         GetUI(list01, this.transform);
         #endregion
@@ -78,8 +77,9 @@ public class GetList : MonoBehaviour
         GetChildUI(new string[] { "颈项部腧穴", "腰骶部腧穴" }, "常用腧穴");
 
         #endregion
-        // Debug.Log("this is a invalid file");
-       
+        Debug.Log("this is a invalid file");
+        
+
     }
 
 
