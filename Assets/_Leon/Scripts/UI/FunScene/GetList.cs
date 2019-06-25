@@ -40,19 +40,32 @@ public class GetList : MonoBehaviour
     /// 下列菜单VR
     /// </summary>
     public GameObject openUI;
+
+    public GameObject model;
+    /// <summary>
+    /// 图片加载路径
+    /// </summary>
+    private string resourcesUrl = "shoufa/";
+    /// <summary>
+    /// 关闭图片的btn
+    /// </summary>
+    private Button closeImageBtn;
+    private GameObject canvas;
     private void Awake()
     {
         Instance = this;
+        canvas = GameObject.Find("Canvas");
+        closeImageBtn = canvas.transform.Find("shoufaUI/close").GetComponent<Button>();
     }
     private void Start()
     {
-      
+        //shoufaUI.GetComponent<Image>().sprite = Resources.Load<Sprite>( "shoufa/推法");
         #region 主菜单
         GetUI(list01, this.transform);
         #endregion
         #region 摆动类手法菜单
         GetChildUI(new string[] { "滚法", "一指禅推法" }, "摆动类手法");
-        GetChildUI(new string[] { "操作方法", "动作要领", "注意事项", "临床应用", "操作视频", "危险之处", "VR动画解析" }, "滚法");
+       // GetChildUI(new string[] { "操作方法", "动作要领", "注意事项", "临床应用", "操作视频", "危险之处", "VR动画解析" }, "滚法");
         #endregion
         #region 挤压类手法菜单
         GetChildUI(new string[] { "压法", "点法" }, "挤压类手法");
@@ -75,11 +88,56 @@ public class GetList : MonoBehaviour
         #region 运动关节子菜单
         GetChildUI(new string[] { "扳法", "摇法", "背法", "拨伸法" }, "运动关节类手法");
         GetChildUI(new string[] { "颈部扳法", "胸背部扳法", "腰部扳法", "肩关节扳" }, "扳法");
-        GetChildUI(new string[] { "操作方法", "动作要领", "注意事项", "临床应用", "操作视频", "危险之处", "VR动画解析" }, "颈部扳法");
+        // GetChildUI(new string[] { "操作方法", "动作要领", "注意事项", "临床应用", "操作视频", "危险之处", "VR动画解析" }, "颈部扳法");
         #endregion
 
+        closeImageBtn.onClick.AddListener(() =>
+        {
+            shoufaUI.gameObject.SetActive(false);
+
+        });
+        GetName("滚法").onClick.AddListener(() =>
+        {
+          OpManager.opContent = "滚法";
+            model.gameObject.SetActive(false);
+        });
+
+        GetName("颈部扳法").onClick.AddListener(() =>
+        {
+            OpManager.opContent = "颈部扳法";
+            model.gameObject.SetActive(true);
+        });
     }
 
+    /// <summary>
+    /// a加载对应的图片
+    /// </summary>
+    public void LoadImage(string name)
+    {
+        Sprite sp = Resources.Load<Sprite>(resourcesUrl + name);
+        // Debug.Log(sp.name+"***********");
+        if (sp == null)
+        {
+           shoufaUI.gameObject.SetActive(false);
+        }
+        else
+        {
+            shoufaUI.GetComponent<Image>().sprite = sp;
+            shoufaUI.gameObject.SetActive(true);
+        }
+    }
+    /// <summary>
+    /// 获取butten
+    /// </summary>
+    /// <param name="name"></param>
+    /// <returns></returns>
+    private Button GetName(string name)
+    {
+        Button button = getNameGameobjectDic[name].gameObject.transform.Find("ContentPanel/ArrowButton").GetComponent<Button>();
+
+        return button;
+
+    }
 
     /// <summary>
     /// 一级菜单

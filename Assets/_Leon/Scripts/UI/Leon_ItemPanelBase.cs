@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Leon_ItemPanelBase : MonoBehaviour
@@ -12,10 +13,7 @@ public class Leon_ItemPanelBase : MonoBehaviour
     public Button downArrow;                                // 下箭头按钮
     public Sprite down, right, dot;
     public bool isOpen;                                     // 子物体开启状态
-    /// <summary>
-    /// 图片加载路径
-    /// </summary>
-    private string resourcesUrl = "shoufa/";
+    
  
     private void Awake()
     {
@@ -25,13 +23,31 @@ public class Leon_ItemPanelBase : MonoBehaviour
         downArrow.GetComponent<Image>().sprite = right;
         downArrow.onClick.AddListener(() =>
         {
+            if (this.name!= "颈部扳法")
+            {
 
+                Debug.Log(SceneManager.GetActiveScene().name+"---------------------");
+                if (SceneManager.GetActiveScene().name == SceneNameManager.FunScene)
+                {
+                    GetList.Instance.model.gameObject.SetActive(false);
+                }
+               
+            }
 
             
             if (isOpen)
             {
                 CloseChild();
-                CloseDownUI();
+                switch (SceneManager.GetActiveScene().name)
+                {
+                    case SceneNameManager.FunScene:
+                        CloseDownUI();
+                        break;
+                    case SceneNameManager.FuHe:
+                        FuHeManager.Instance.UIImage.SetActive(false);
+                        break;
+                }
+             
                 isOpen = false;
             }
             else
@@ -82,22 +98,27 @@ public class Leon_ItemPanelBase : MonoBehaviour
     {
         if (_childList.Count == 0)
         {
-            Debug.Log(this.name);
-            Sprite sp= Resources.Load<Sprite>(resourcesUrl + this.name);
-            if (sp==null)
+
+            Debug.Log(this.name + "+++++++++");
+            if (this.name != "滚法")
             {
-                GetList.Instance.shoufaUI.gameObject.SetActive(false);
-            }
-            else
-            {
-                GetList.Instance.shoufaUI.GetComponent<Image>().sprite = sp;
-                GetList.Instance.shoufaUI.gameObject.SetActive(true);
+                switch (SceneManager.GetActiveScene().name)
+                {
+                    case SceneNameManager.FunScene:
+                        GetList.Instance.LoadImage(this.name);
+                        ShowDownUI();
+                        break;
+                    case SceneNameManager.FuHe:
+                        FuHeManager.Instance.LoadImage(this.name);
+                        FuHeManager.Instance.UIImage.SetActive(true);
+                        break;
+                }
             }
           
 
-           
+
             return;
-        } 
+        }
 
         foreach (Leon_ItemPanelBase child in _childList)
         {
@@ -108,8 +129,10 @@ public class Leon_ItemPanelBase : MonoBehaviour
         }
 
         downArrow.GetComponent<Image>().sprite = down;
-        ShowDownUI();
+       
     }
+
+   
 
     /// <summary>
     /// 关闭子物体列表
@@ -118,7 +141,18 @@ public class Leon_ItemPanelBase : MonoBehaviour
     {
         if (_childList.Count == 0)
         {
-            GetList.Instance.shoufaUI.gameObject.SetActive(false);
+
+            switch (SceneManager.GetActiveScene().name)
+            {
+                case SceneNameManager.FunScene:
+                    GetList.Instance.shoufaUI.gameObject.SetActive(false);
+                    break;
+                case SceneNameManager.FuHe:
+                   
+                    FuHeManager.Instance.UIImage.SetActive(false);
+                    break;
+            }
+          
 
             return;
         }

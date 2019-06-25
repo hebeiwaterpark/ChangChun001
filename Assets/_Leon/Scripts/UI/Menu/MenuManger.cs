@@ -55,16 +55,26 @@ public class MenuManger : MonoBehaviour
 
     public void GoFunScene()
     {
-        SceneManager.LoadScene("FunScene");
+        SceneManager.LoadScene(SceneNameManager.FunScene);
     }
 
     public void GoInspectionScene()
     {
-        SceneManager.LoadScene("InspectionScene");
+        SceneManager.LoadScene(SceneNameManager.InspectionScene);
     }
 
     public void GoAcupointScene()
     {
-        SceneManager.LoadScene("AcupointScene");
+        SceneManager.LoadScene(SceneNameManager.AcupointScene);
     }
+
+    /// <summary>
+    /// 复式菜单
+    /// </summary>
+    public void GoReexaminationScene()
+    {
+        SceneManager.LoadScene(SceneNameManager.FuHe);
+
+    }
+
 }

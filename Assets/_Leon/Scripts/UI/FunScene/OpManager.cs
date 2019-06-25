@@ -28,16 +28,16 @@ public class OpManager : MonoBehaviour
         animator = model.GetComponent<Animator>();
         animator.SetInteger("Play", 1);
 
-        gunBtn.onClick.AddListener(() =>
-        {
-            opContent = "滚法";
+        //gunBtn.onClick.AddListener(() =>
+        //{
+        //    opContent = "滚法";
 
-        });
+        //});
 
-        jingBtn.onClick.AddListener(() =>
-        {
-            opContent = "颈部扳法";
-        });
+        //jingBtn.onClick.AddListener(() =>
+        //{
+        //    opContent = "颈部扳法";
+        //});
 
         closeOpPanel.onClick.AddListener(() =>
         {
@@ -94,10 +94,15 @@ public class OpManager : MonoBehaviour
 
     public void PlayVRAniamtion()
     {
+
+
+
         if (opContent == "滚法")
         {
             model.SetActive(false);
-            gunImg.gameObject.SetActive(true);
+           // gunImg.gameObject.SetActive(true);
+
+            GetList.Instance.LoadImage("滚法");
 
         }else if (opContent == "颈部扳法")
         {
