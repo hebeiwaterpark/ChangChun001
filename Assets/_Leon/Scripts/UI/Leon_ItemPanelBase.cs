@@ -12,8 +12,11 @@ public class Leon_ItemPanelBase : MonoBehaviour
     public Button downArrow;                                // 下箭头按钮
     public Sprite down, right, dot;
     public bool isOpen;                                     // 子物体开启状态
-
-
+    /// <summary>
+    /// 图片加载路径
+    /// </summary>
+    private string resourcesUrl = "shoufa/";
+ 
     private void Awake()
     {
         _childList = new List<Leon_ItemPanelBase>();
@@ -22,9 +25,13 @@ public class Leon_ItemPanelBase : MonoBehaviour
         downArrow.GetComponent<Image>().sprite = right;
         downArrow.onClick.AddListener(() =>
         {
+
+
+            
             if (isOpen)
             {
                 CloseChild();
+                CloseDownUI();
                 isOpen = false;
             }
             else
@@ -39,11 +46,58 @@ public class Leon_ItemPanelBase : MonoBehaviour
     }
 
     /// <summary>
+    /// 显示下列菜单
+    /// </summary>
+    private void ShowDownUI()
+    {
+        switch (this.name)
+        {
+            case "颈部扳法":
+                GetList.Instance.openUI.SetActive(true);
+                break;
+            case "滚法":
+                GetList.Instance.openUI.SetActive(true);
+                break;
+
+
+            default:
+                break;
+        }
+
+    }
+    /// <summary>
+    /// 关闭下列菜单
+    /// </summary>
+    private void CloseDownUI()
+    {
+        GetList.Instance.openUI.SetActive(false);
+
+    }
+
+
+    /// <summary>
     /// 打开子物体列表
     /// </summary>
     private void OpenChild()
     {
-        if (_childList.Count == 0) return;
+        if (_childList.Count == 0)
+        {
+            Debug.Log(this.name);
+            Sprite sp= Resources.Load<Sprite>(resourcesUrl + this.name);
+            if (sp==null)
+            {
+                GetList.Instance.shoufaUI.gameObject.SetActive(false);
+            }
+            else
+            {
+                GetList.Instance.shoufaUI.GetComponent<Image>().sprite = sp;
+                GetList.Instance.shoufaUI.gameObject.SetActive(true);
+            }
+          
+
+           
+            return;
+        } 
 
         foreach (Leon_ItemPanelBase child in _childList)
         {
@@ -54,6 +108,7 @@ public class Leon_ItemPanelBase : MonoBehaviour
         }
 
         downArrow.GetComponent<Image>().sprite = down;
+        ShowDownUI();
     }
 
     /// <summary>
@@ -61,7 +116,12 @@ public class Leon_ItemPanelBase : MonoBehaviour
     /// </summary>
     private void CloseChild()
     {
-        if (_childList.Count == 0) return;
+        if (_childList.Count == 0)
+        {
+            GetList.Instance.shoufaUI.gameObject.SetActive(false);
+
+            return;
+        }
         foreach (Leon_ItemPanelBase child in _childList)
         {
             child.gameObject.SetActive(false);

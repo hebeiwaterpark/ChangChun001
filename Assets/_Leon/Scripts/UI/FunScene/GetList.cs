@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -23,21 +24,34 @@ public class GetList : MonoBehaviour
     //    }
     //    return instance;
     //}
+    public static GetList Instance;
     #endregion
     /// <summary>
     /// 存储对应的节点物体
     /// </summary>
     private Dictionary<string, GameObject> getNameGameobjectDic = new Dictionary<string, GameObject>();
+    /// <summary>
+    /// 手法的ui
+    /// </summary>
+    public GameObject shoufaUI;
+    private readonly string[] list01 = { "摆动类手法", "摩擦类手法", "挤压类手法", "振颤类手法", "叩击类手法", "运动关节类手法"};
 
-    private readonly string[] list01 = { "摆动类手法", "摩擦类手法", "挤压类手法", "振颤类手法", "叩击类手法", "运动关节类手法", "复合类手法", "其他类手法", "手法考核", "常用腧穴" };
+    /// <summary>
+    /// 下列菜单VR
+    /// </summary>
+    public GameObject openUI;
+    private void Awake()
+    {
+        Instance = this;
+    }
     private void Start()
     {
-
+      
         #region 主菜单
         GetUI(list01, this.transform);
         #endregion
         #region 摆动类手法菜单
-        GetChildUI(new string[] {"滚法", "一指禅推法" }, "摆动类手法");
+        GetChildUI(new string[] { "滚法", "一指禅推法" }, "摆动类手法");
         GetChildUI(new string[] { "操作方法", "动作要领", "注意事项", "临床应用", "操作视频", "危险之处", "VR动画解析" }, "滚法");
         #endregion
         #region 挤压类手法菜单
@@ -55,30 +69,14 @@ public class GetList : MonoBehaviour
         #region 叩击类手法菜单
         GetChildUI(new string[] { "击法" }, "叩击类手法");
 
-        #endregion 
-        #region 复合类手法菜单
-        GetChildUI(new string[] { "弹拨法" , "勾点法" }, "复合类手法");
 
-       #endregion
+
+        #endregion
         #region 运动关节子菜单
         GetChildUI(new string[] { "扳法", "摇法", "背法", "拨伸法" }, "运动关节类手法");
         GetChildUI(new string[] { "颈部扳法", "胸背部扳法", "腰部扳法", "肩关节扳" }, "扳法");
         GetChildUI(new string[] { "操作方法", "动作要领", "注意事项", "临床应用", "操作视频", "危险之处", "VR动画解析" }, "颈部扳法");
         #endregion
-        #region 其他类手法菜单
-        GetChildUI(new string[] { "插法", "捩法" }, "其他类手法");
-
-        #endregion
-        #region 手法考核菜单
-        GetChildUI(new string[] { "手法选择", "动作要领" }, "手法考核");
-        GetChildUI(new string[] { "部位", "病症" }, "手法选择");
-        #endregion
-        #region 常用腧穴菜单
-        GetChildUI(new string[] { "颈项部腧穴", "腰骶部腧穴" }, "常用腧穴");
-
-        #endregion
-        Debug.Log("this is a invalid file");
-        
 
     }
 

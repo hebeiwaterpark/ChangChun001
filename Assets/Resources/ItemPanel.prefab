@@ -211,6 +211,7 @@ MonoBehaviour:
   right: {fileID: 21300000, guid: 40a60488dda635845b6873b9090ed64a, type: 3}
   dot: {fileID: 21300000, guid: 644a00cfde3f587479a62e051ac43986, type: 3}
   isOpen: 0
+  shoufaUI: {fileID: 0}
 --- !u!1 &1451268834940278
 GameObject:
   m_ObjectHideFlags: 0
