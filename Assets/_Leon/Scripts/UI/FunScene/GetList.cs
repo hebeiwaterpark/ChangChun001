@@ -4,6 +4,7 @@ using System.Security.Cryptography;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityEngine.Video;
 
 /// <summary>
 /// 处理菜单节点
@@ -51,11 +52,24 @@ public class GetList : MonoBehaviour
     /// </summary>
     private Button closeImageBtn;
     private GameObject canvas;
+    /// <summary>
+    /// 关闭视频按钮
+    /// </summary>
+    public Button videoClose;
+    /// <summary>
+    /// 播放器
+    /// </summary>
+    public GameObject VideoGame;
+    /// <summary>
+    /// 播放视频
+    /// </summary>
+    public Button playVideo;
     private void Awake()
     {
         Instance = this;
         canvas = GameObject.Find("Canvas");
         closeImageBtn = canvas.transform.Find("shoufaUI/close").GetComponent<Button>();
+        VideoGame.SetActive(false);
     }
     private void Start()
     {
@@ -90,7 +104,18 @@ public class GetList : MonoBehaviour
         GetChildUI(new string[] { "颈部扳法", "胸背部扳法", "腰部扳法", "肩关节扳" }, "扳法");
         // GetChildUI(new string[] { "操作方法", "动作要领", "注意事项", "临床应用", "操作视频", "危险之处", "VR动画解析" }, "颈部扳法");
         #endregion
+        playVideo.onClick.AddListener(() =>
+        {
+            VideoGame.SetActive(true);
+            VideoGame.GetComponent<VideoPlayer>().clip = Resources.Load<VideoClip>("001mp4");
 
+            //Application.OpenURL("https://v.qq.com/x/cover/5cmmfm878hexl79/g0889h7pnqt.html?ptag=qqbrowser");
+        });
+        videoClose.onClick.AddListener(() =>
+        {
+            VideoGame.SetActive(false);
+
+        });
         closeImageBtn.onClick.AddListener(() =>
         {
             shoufaUI.gameObject.SetActive(false);

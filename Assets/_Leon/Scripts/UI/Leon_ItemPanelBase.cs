@@ -114,7 +114,13 @@ public class Leon_ItemPanelBase : MonoBehaviour
                         break;
                 }
             }
-          
+            else
+            {
+                if (SceneManager.GetActiveScene().name==SceneNameManager.FunScene)
+                {
+                    ShowDownUI();
+                }
+            }
 
 
             return;
